@@ -5,6 +5,19 @@
  */
 
 module.exports = {
-  /* Your site config here */
-  plugins: [],
+  siteMetadata: {
+    title: 'Portfolio',
+    description: 'Prsonal portfolio website',
+    auhor: 'Shoaib Asgar',
+  }
+  ,
+  plugins: [
+    {
+    resolve: `gatsby-source-filesystem`,
+    options: {
+        name: 'images',
+        path: `${__dirname}/src/images/`,
+      },
+    },
+  ],
 }
