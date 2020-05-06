@@ -1,13 +1,12 @@
 import React from "react"
 
-import Layout from "../components/Layout";
+import Layout from "../components/Layout"
+import Jumbotron from "../components/Jumbotron/Jumbotron"
 
 export default () => {
-    return (
-        <Layout>
-            <div>
-                BGS
-            </div>
-        </Layout>
-    )
+  return (
+    <Layout>
+      <Jumbotron />
+    </Layout>
+  )
 }

@@ -6,16 +6,15 @@
 
 module.exports = {
   siteMetadata: {
-    title: 'Portfolio',
-    description: 'Prsonal portfolio website',
-    auhor: 'Shoaib Asgar',
-  }
-  ,
+    title: "Portfolio",
+    description: "Prsonal portfolio website",
+    author: "Shoaib Asgar",
+  },
   plugins: [
     {
-    resolve: `gatsby-source-filesystem`,
-    options: {
-        name: 'images',
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "images",
         path: `${__dirname}/src/images/`,
       },
     },
