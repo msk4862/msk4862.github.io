@@ -2,6 +2,51 @@
   margin-top: 2rem;
   padding: 70px 30px 70px 30p;
   color: #eeeeee;
-  font-size: 1.3em;
+  font-size: 1.3rem;
   background-color: #222831;
 }
+
+.in-head {
+	color: #5f6769;
+}
+
+.ed-meta {
+	font-size: 0.9em;
+	color: #5f6769;
+}
+
+
+.profile-img {
+	width: 200px;
+	height: 200px;
+
+}
+
+.profile-ed {
+	color: #5f6769;
+	text-align: center;
+}
+
+.social-links {
+	padding-top: 10px;
+}
+
+.social-links > a {
+	padding: 0 7px 0 7px;
+	color: #00918e;
+}
+
+.social-links > a :hover {
+	text-decoration: none;
+	color: #eeeeee;
+}
+
+.profile-title {
+	margin-top: 10px;
+	justify-content: center;
+}
+
+.eductaion-list > li > i {
+	padding: 5px;
+}
+
