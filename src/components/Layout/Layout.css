@@ -1,0 +1,21 @@
+html {
+    scroll-behavior: smooth;
+}
+  
+body {
+    font-family: "Open Sans", sans-serif;
+    padding: 50px 0px 0px 0px;
+    color: #eeeeee;
+    background-color: #222831;
+}
+
+a,
+a:hover {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    color: #5f6769;
+}
+  

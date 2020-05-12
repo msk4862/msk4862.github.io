@@ -7,7 +7,7 @@ const getAuthor = graphql`
   {
     site {
       siteMetadata {
-        author
+        title
       }
     }
   }
@@ -17,7 +17,7 @@ const Header = () => {
   // object destrcturing
   const {
     site: {
-      siteMetadata: { author },
+      siteMetadata: { title },
     },
   } = useStaticQuery(getAuthor)
 
@@ -25,7 +25,7 @@ const Header = () => {
     <nav className="navbar navbar-dark navbar-expand-sm fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <h3>{author}</h3>
+          <h3>{title}</h3>
         </Link>
 
         <button

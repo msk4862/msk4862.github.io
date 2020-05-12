@@ -6,11 +6,11 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Portfolio",
-    description: "Prsonal portfolio website",
-    author: "Shoaib Asgar",
+    title: 'Shoaib Asgar',
+    description: 'This is Shoaib Asgar\'s personal website.',
   },
-  plugins: [
+
+  plugins: ['gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

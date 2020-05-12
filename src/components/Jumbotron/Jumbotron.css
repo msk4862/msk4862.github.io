@@ -6,20 +6,24 @@
   background-color: #222831;
 }
 
-.in-head {
-	color: #5f6769;
-}
-
 .ed-meta {
 	font-size: 0.9em;
 	color: #5f6769;
 }
 
-
 .profile-img {
 	width: 200px;
 	height: 200px;
 
+}
+
+.profile-title {
+	margin-top: 10px;
+	justify-content: center;
+}
+
+.profile-title h2  {
+	color: #eeeeee;
 }
 
 .profile-ed {
@@ -41,10 +45,6 @@
 	color: #eeeeee;
 }
 
-.profile-title {
-	margin-top: 10px;
-	justify-content: center;
-}
 
 .eductaion-list > li > i {
 	padding: 5px;

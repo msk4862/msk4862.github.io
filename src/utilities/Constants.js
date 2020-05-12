@@ -1,4 +1,4 @@
-social_links: {
+export const social_links = {
   github: {
     href: "https://github.com/msk4862"
   }

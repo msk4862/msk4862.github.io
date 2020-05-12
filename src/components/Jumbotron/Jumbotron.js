@@ -25,7 +25,7 @@ const Jumbotron = () => {
 
                     <div className="row justify-content-start">
                       <div className="col-sm-6">
-                          <h3 className="in-head">Interests</h3>
+                          <h3>Interests</h3>
                           <ul>
                               <li>
                                   Web Development
@@ -43,7 +43,7 @@ const Jumbotron = () => {
                         </div>
 
                     <div className="col-sm-6">
-                            <h3 className="in-head">Eductaion</h3>
+                            <h3>Eductaion</h3>
                             <div className="row">
                                 <div className="col-sm-1">
                                     <i className="fas fa-graduation-cap"></i>
