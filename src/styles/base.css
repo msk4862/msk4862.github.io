@@ -18,4 +18,16 @@ a:hover {
 h1, h2, h3, h4, h5 {
     color: #5f6769;
 }
-  
+
+main:nth-child(even) {
+    background-color: #2b313a;
+}
+
+section {
+    padding-bottom: 2.5rem;
+}
+ 
+*::selection {
+	color: #eeeeee;
+	background-color: #00adb5;
+}

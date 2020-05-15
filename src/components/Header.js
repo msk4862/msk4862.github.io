@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 
-import "./Header.css"
+import "../styles/header.css"
 
 const getAuthor = graphql`
   {
@@ -45,7 +45,7 @@ const Header = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="#skills">
                 Skiils
               </a>
             </li>

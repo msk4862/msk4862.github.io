@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from 'gatsby'
 
-import "./Jumbotron.css"
+import "../styles/jumbotron.css"
 import Image from 'gatsby-image'
 
 const getProfileImage = graphql`
@@ -22,7 +22,7 @@ const Jumbotron = () => {
     console.log(img)
   
     return (
-        <header className="intro-section">
+        <section className="intro-section">
             <div className="container">
                 <div className="row justify-content-between">
                     <div className="col-12 col-sm-12 col-md-8"> 
@@ -108,7 +108,7 @@ const Jumbotron = () => {
                     </div>
                 </div>
             </div>
-        </header>
+        </section>
     )
 }
 

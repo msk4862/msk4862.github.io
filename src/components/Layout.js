@@ -2,8 +2,8 @@ import React from "react"
 import { graphql, useStaticQuery,  } from 'gatsby'
 import { Helmet } from 'react-helmet'
 
-import "./Layout.css"
-import Header from "../Header/Header"
+import "../styles/base.css"
+import Header from "./Header"
 
 const getSiteMetaData = graphql`
   {
