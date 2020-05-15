@@ -1,0 +1,22 @@
+.skill-title {
+	margin-top: 2.75rem;
+}
+
+.skill-ico > i{
+	color: #00918e;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.skill-set {
+	margin-top: 6%;
+	padding-bottom: 6%
+}
+
+.skill-detail {
+	width: 100%;
+	font-size: 1.2em;
+	color: #eeeeee;
+	text-align: center;
+
+}
