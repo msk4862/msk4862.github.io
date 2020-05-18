@@ -26,6 +26,14 @@ main:nth-child(even) {
 section {
     padding-bottom: 2.5rem;
 }
+
+.zoom {
+    transition: ease 0.25s;
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+}
  
 *::selection {
 	color: #eeeeee;
