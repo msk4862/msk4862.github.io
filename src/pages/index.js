@@ -1,13 +1,13 @@
 import React from "react"
 
 import Layout from "../components/Layout"
-import Jumbotron from "../components/Jumbotron"
+import Intro from "../components/Intro"
 import Skills from "../components/Skills"
 
 export default () => {
   return (
     <Layout>
-      <Jumbotron />
+      <Intro />
       <Skills/>
     </Layout>
   )

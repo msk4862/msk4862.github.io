@@ -14,7 +14,7 @@ const Skills = () => {
                 <div className="row justify-content-around">
 
                     <div className="col-12 col-sm-4 col-md-3">
-                        <div className="progress">
+                        <div className="zoom progress">
                             <div className="progress-bar progress-bar-striped progress-bar-animated"
                                 aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:"95%"}}>
                                 C++
@@ -23,7 +23,7 @@ const Skills = () => {
                     </div>
 
                     <div className="col-12 col-sm-4 col-md-3">
-                        <div className="progress">
+                        <div className="zoom progress">
                             <div className="progress-bar progress-bar-striped progress-bar-animated"
                                 aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:"95%"}}>
                                 Python
@@ -32,7 +32,7 @@ const Skills = () => {
                     </div>
 
                     <div className="col-12 col-sm-4 col-md-3">
-                        <div className="progress">
+                        <div className="zoom progress">
                             <div className="progress-bar progress-bar-striped progress-bar-animated"
                                 aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:"90%"}}>
                                 JavaScript
@@ -45,7 +45,7 @@ const Skills = () => {
                 <div className="row justify-content-around mt-5">
 
                     <div className="col-12 col-sm-4 col-md-3">
-                        <div className="progress">
+                        <div className="zoom progress">
                             <div className="progress-bar progress-bar-striped progress-bar-animated"
                                 aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:"95%"}}>
                                 ReactJs
@@ -54,7 +54,7 @@ const Skills = () => {
                     </div>
 
                     <div className="col-12 col-sm-4 col-md-3">
-                        <div className="progress">
+                        <div className="zoom progress">
                             <div className="progress-bar progress-bar-striped progress-bar-animated"
                                 aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:"95%"}}>
                                 Django
@@ -63,7 +63,7 @@ const Skills = () => {
                     </div>
 
                     <div className="col-12 col-sm-4 col-md-3">
-                        <div className="progress">
+                        <div className="zoom progress">
                             <div className="progress-bar progress-bar-striped progress-bar-animated"
                                 aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:"90%"}}>
                                 Unity3D
