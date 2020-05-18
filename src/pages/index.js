@@ -11,8 +11,8 @@ export default () => {
   return (
     <Layout>
       <Intro />
-      <Skills/>
-      <Experiences/>
+      <Skills />
+      <Experiences />
     </Layout>
   )
 }

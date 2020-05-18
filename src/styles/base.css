@@ -1,41 +1,45 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
-  
+
 body {
-    font-family: "Open Sans", sans-serif;
-    padding: 50px 0px 0px 0px;
-    color: #eeeeee;
-    background-color: #222831;
+  font-family: "Open Sans", sans-serif;
+  padding: 50px 0px 0px 0px;
+  color: #eeeeee;
+  background-color: #222831;
 }
 
 a,
 a:hover {
-    color: #eeeeee;
-    text-decoration: none;
+  color: #eeeeee;
+  text-decoration: none;
 }
 
-h1, h2, h3, h4, h5 {
-    color: #5f6769;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #5f6769;
 }
 
 section:nth-child(even) {
-    background-color: #2b313a;
+  background-color: #2b313a;
 }
 
 section {
-    padding: 70px 30px 70px 30px;
+  padding: 70px 30px 70px 30px;
 }
 
 .zoom {
-    transition: ease 0.25s;
+  transition: ease 0.25s;
 }
 
 .zoom:hover {
-    transform: scale(1.12);
+  transform: scale(1.12);
 }
- 
+
 *::selection {
-	color: #eeeeee;
-	background-color: #00adb5;
+  color: #eeeeee;
+  background-color: #00adb5;
 }

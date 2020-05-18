@@ -1,6 +1,6 @@
 import React from "react"
-import { graphql, useStaticQuery,  } from 'gatsby'
-import { Helmet } from 'react-helmet'
+import { graphql, useStaticQuery } from "gatsby"
+import { Helmet } from "react-helmet"
 
 import Header from "./Header"
 
@@ -8,7 +8,7 @@ const getSiteMetaData = graphql`
   {
     site {
       siteMetadata {
-        title,
+        title
         description
       }
     }
@@ -16,23 +16,18 @@ const getSiteMetaData = graphql`
 `
 
 const Layout = ({ children }) => {
-
   const {
     site: {
-      siteMetadata: {
-        title,
-        description
-      },
+      siteMetadata: { title, description },
     },
   } = useStaticQuery(getSiteMetaData)
-
 
   return (
     <>
       <Helmet>
-        <html lang='en'/>
+        <html lang="en" />
         <title>{title}</title>
-        <meta name='description' content={description}/>
+        <meta name="description" content={description} />
       </Helmet>
       <Header />
       <main>{children}</main>

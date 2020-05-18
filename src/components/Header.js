@@ -41,7 +41,7 @@ const Header = () => {
 
         <div className="collapse navbar-collapse" id="Navbar">
           <ul className="navbar-nav">
-            {Navs.map(nav=> {
+            {Navs.map(nav => {
               return (
                 <li className="nav-item">
                   <a className="nav-link" href={nav.href}>
