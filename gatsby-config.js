@@ -8,6 +8,7 @@ module.exports = {
   siteMetadata: {
     title: 'Shoaib Asgar',
     description: 'This is Shoaib Asgar\'s personal website.',
+    
   },
 
   plugins: [

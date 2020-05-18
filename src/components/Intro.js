@@ -3,6 +3,8 @@ import React from "react"
 import "../styles/intro.css"
 import IntroSocial from "../components/IntroSocial"
 
+import { Interests, Eductaion } from "../utilities/Constants"
+
 
 const Intro = () => {
 
@@ -29,47 +31,37 @@ const Intro = () => {
                         </p>
                         
                         <div className="row justify-content-start">
+                            
                             {/* Interests */}
                             <div className="col-sm-6">
                                 <h3>Interests</h3>
                                 <ul>
-                                    <li>
-                                        Web Development
-                                    </li>
-                                    <li>
-                                        Game Development
-                                    </li>
-                                    <li>
-                                        Augmented Reality
-                                    </li>
-                                    <li>
-                                        Deep Learning
-                                    </li>
+                                    {Interests.map(interest => {
+                                            return (
+                                                <li>{interest}</li>
+                                            )
+                                    })}
                                 </ul>
                             </div>
 
                             {/* Education */}
                             <div className="col-sm-6">
                                     <h3>Eductaion</h3>
-                                    <div className="row">
-                                        <div className="col-sm-1">
-                                            <i className="fa fa-graduation-cap"></i>
-                                        </div>
-                                        <div  className="col-sm-10">
-                                            <span>MCA, 2019-2022</span> <br/>
-                                            <span className="ed-meta">Department of Computer Science, Delhi University</span>
-                                        </div>
-                                    </div>
-
-                                    <div className="row">
-                                        <div className="col-sm-1">
-                                            <i className="fa fa-graduation-cap"></i>
-                                        </div>
-                                        <div  className="col-sm-10">
-                                            <span>B.Sc.(H) Computer Science, 2016-2019</span> <br/>
-                                            <span className="ed-meta">Hansraj College, Delhi University</span>
-                                        </div>
-                                    </div>
+                                    
+                                    {Eductaion.map(edu => {
+                                        return (
+                                            <div className="row">
+                                                <div className="col-sm-1">
+                                                    <i className="fa fa-graduation-cap"></i>
+                                                </div>
+                                                <div  className="col-sm-10">
+                                                    <span>{edu.title}</span> <br/>
+                                                    <span className="ed-meta">{edu.name}</span>
+                                                </div>
+                                            </div>
+                                        )
+                                    })}
+    
 
                                 </div>
                             </div>
