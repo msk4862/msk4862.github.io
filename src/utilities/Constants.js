@@ -25,10 +25,6 @@ export const Games = [
     name: "Kido3D-Educational AR based App for Kids",
     url: "https://play.google.com/store/apps/details?id=com.funcandi.games",  
   },
-  // {
-  //   name: "Guns of Fighters",
-  //   url: "https://play.google.com/store/apps/details?id=com.funcandi.gof",  
-  // },
   {
     name: "Funcandi Hidden Object",
     url: " https://play.google.com/store/apps/details?id=gamedevelopers.funcandi.hiddenobjects" 

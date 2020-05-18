@@ -27,6 +27,9 @@ const Experiences = () => {
                                         Work with AWS, HTML5, CSS, JavaScript, PHP and everything
                                         in between.
                                     </li>
+                                    <li>
+                                        Develop ML Algorithms for various web applications in Python.
+                                    </li>
                                 </ul>
                             </div>
                           </div>
