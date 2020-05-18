@@ -9,59 +9,71 @@ const Skills = () => {
                     <h1 className="skill-title">Skills</h1>
             </div>
             <div className="skill-set">
-                <div className="row row-header justify-content-center">
-                    <div className="col-12 col-sm-4 col-md-3 zoom">
-                        <div className="skill-ico row">
-                            <i className="fas fa-code fa-5x"></i>
-                        </div>
-                        <div className="skill-detail">
-                            <p>C++<br/>90%</p>
-                        </div>
-                    </div> 
-                    <div className="col-12 col-sm-4 col-md-3 zoom">
-                        <div class="skill-ico row">
-                            <i class="fab fa-python fa-5x"></i>
-                        </div>
-                        <div className="skill-detail">
-                            <p>Python<br/>90%</p>
+
+                {/* First row */}
+                <div className="row justify-content-around">
+
+                    <div className="col-12 col-sm-4 col-md-3">
+                        <div className="progress">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:"95%"}}>
+                                C++
+                            </div>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-4 col-md-3 zoom">
-                        <div className="skill-ico row">
-                            <i className="fab fa-cuttlefish fa-5x"></i>
-                        </div>
-                        <div className="skill-detail">
-                            <p>C<br/>80%</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="row row-header justify-content-center">
-                    <div className="col-12 col-sm-4 col-md-3 zoom">
-                        <div className="skill-ico row">
-                            <i className="fab fa-js fa-5x"></i>
-                        </div>
-                        <div className="skill-detail">
-                            <p>JavaScript<br/>90%</p>
+
+                    <div className="col-12 col-sm-4 col-md-3">
+                        <div className="progress">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:"95%"}}>
+                                Python
+                            </div>
                         </div>
                     </div>
-                    <div className="col-12 col-sm-4 col-md-3 zoom">
-                        <div className="skill-ico row">
-                            <i className="fab fa-react fa-5x"></i>
-                        </div>
-                        <div className="skill-detail">
-                            <p>ReactJs<br/>90%</p>
-                        </div>
-                    </div>
-                    <div className="col-12 col-sm-4 col-md-3 zoom">
-                        <div className="skill-ico row">
-                            <i className="fab fa-css3-alt fa-5x"></i>
-                        </div>
-                        <div className="skill-detail">
-                            <p>CSS<br/>80%</p>
+
+                    <div className="col-12 col-sm-4 col-md-3">
+                        <div className="progress">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:"90%"}}>
+                                JavaScript
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>        
+                
+                {/* Second Row */}
+                <div className="row justify-content-around mt-5">
+
+                    <div className="col-12 col-sm-4 col-md-3">
+                        <div className="progress">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:"95%"}}>
+                                ReactJs
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-12 col-sm-4 col-md-3">
+                        <div className="progress">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:"95%"}}>
+                                Django
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-12 col-sm-4 col-md-3">
+                        <div className="progress">
+                            <div className="progress-bar progress-bar-striped progress-bar-animated"
+                                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style={{width:"90%"}}>
+                                Unity3D
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>     
         </section>
     )
 }
