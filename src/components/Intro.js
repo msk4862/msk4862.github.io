@@ -16,9 +16,8 @@ const Intro = () => {
                     
                     {/* About section */}
                     <div className="col-12 col-sm-12 col-md-8"> 
-                        <div className="row ml-auto">
-                            <h1 className="in-head">About</h1>
-                        </div>
+                        <h1 className="in-head">About</h1>
+                        
                         <p><i>“People enjoy the interaction on the Internet, and the feeling of 
                         belonging to a group that does something interesting: that’s how
                         some software projects are born.”</i> - Linus Torvalds</p>

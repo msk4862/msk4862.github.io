@@ -1,20 +1,15 @@
-.skill-title {
-	margin-top: 2.75rem;
-}
-
 .skill-set {
 	margin-top: 2rem;
 }
 
-
 .progress {
-	height: 35px;
+	height: 30px;
 }
 
 .progress-bar {
 	background-color: #00adb5;
 
-	font-size: 1.275rem;
+	font-size: 1.2rem;
 	color: #f8f8f8;
 	font-weight: 500;
 }

@@ -1,8 +1,8 @@
 export const SocialLinks = {
-  github: {
-
-    href: "https://github.com/msk4862"
-  }
+  github: "https://github.com/msk4862",
+  linkedin: "https://www.linkedin.com/in/msk4862",
+  facebook: "https://www.facebook.com/md.shoaib.4862",
+  twitter: "https://twitter.com/msk4862",
 }
 
 export const Interests = [
@@ -18,4 +18,27 @@ export const Eductaion = [
     title: "B.Sc.(H) Computer Science, 2016-2019",
     name: "Hansraj College, Delhi University",
   }
+]
+
+export const Games = [
+  {
+    name: "Kido3D-Educational AR based App for Kids",
+    url: "https://play.google.com/store/apps/details?id=com.funcandi.games",  
+  },
+  // {
+  //   name: "Guns of Fighters",
+  //   url: "https://play.google.com/store/apps/details?id=com.funcandi.gof",  
+  // },
+  {
+    name: "Funcandi Hidden Object",
+    url: " https://play.google.com/store/apps/details?id=gamedevelopers.funcandi.hiddenobjects" 
+  },
+  {
+    name: "Funcandi Episodic Game",
+    url: "https://play.google.com/store/apps/details?id=gamedevelopers.funcandi.episode" 
+  },
+  {
+    name: "Funcandi Brain Booster",
+    url: "https://play.google.com/store/apps/details?id=brainbooster.funcandi.com.brainbooster1" 
+  },
 ]

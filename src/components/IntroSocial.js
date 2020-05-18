@@ -3,6 +3,8 @@ import { graphql, useStaticQuery } from 'gatsby'
 
 import Image from 'gatsby-image'
 
+import { SocialLinks } from "../utilities/Constants"
+
 const getProfileImage = graphql`
 {
     file(relativePath: {eq: "profile/profile.jpg"}) {
@@ -33,13 +35,13 @@ const IntroSocial = () => {
 
                 {/* Socials */}
                 <div className="row social-links justify-content-center">
-                    <a href="https://www.linkedin.com/in/msk4862" target="blank">
+                    <a href={SocialLinks.linkedin} target="blank">
                     <i className="zoom fa fa-linkedin-square fa-2x"></i></a>
-                    <a href="https://github.com/msk4862" target="blank">
+                    <a href={SocialLinks.github} target="blank">
                     <i className="zoom fa fa-github fa-2x"></i></a>
-                    <a href="https://www.facebook.com/md.shoaib.4862" target="blank">
+                    <a href={SocialLinks.facebook} target="blank">
                     <i className="zoom fa fa-facebook-square fa-2x"></i></a>
-                    <a href="https://twitter.com/msk4862" target="blank">
+                    <a href={SocialLinks.twitter} target="blank">
                     <i className="zoom fa fa-twitter-square fa-2x"></i></a>
                 </div>
             </div>
