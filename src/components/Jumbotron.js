@@ -63,7 +63,7 @@ const Jumbotron = () => {
                                 <h3>Eductaion</h3>
                                 <div className="row">
                                     <div className="col-sm-1">
-                                        <i className="fas fa-graduation-cap"></i>
+                                        <i className="fa fa-graduation-cap"></i>
                                     </div>
                                     <div  className="col-sm-10">
                                         <span>MCA, 2019-2022</span> <br/>
@@ -73,7 +73,7 @@ const Jumbotron = () => {
 
                                 <div className="row">
                                     <div className="col-sm-1">
-                                        <i className="fas fa-graduation-cap"></i>
+                                        <i className="fa fa-graduation-cap"></i>
                                     </div>
                                     <div  className="col-sm-10">
                                         <span>B.Sc.(H) Computer Science, 2016-2019</span> <br/>
@@ -97,13 +97,13 @@ const Jumbotron = () => {
                         </div>
                         <div className="row social-links justify-content-center">
                             <a href="https://www.linkedin.com/in/msk4862" target="blank">
-                            <i className="zoom fab fa-linkedin fa-2x"></i></a>
+                            <i className="fa fa-linkedin-square fa-2x"></i></a>
                             <a href="https://github.com/msk4862" target="blank">
-                            <i className="zoom fab fa-github fa-2x"></i></a>
+                            <i className="zoom fa fa-github fa-2x"></i></a>
                             <a href="https://www.facebook.com/md.shoaib.4862" target="blank">
-                            <i className="zoom fab fa-facebook fa-2x"></i></a>
+                            <i className="zoom fa fa-facebook-square fa-2x"></i></a>
                             <a href="https://twitter.com/msk4862" target="blank">
-                            <i className="zoom fab fa-twitter fa-2x"></i></a>
+                            <i className="zoom fa fa-twitter-square fa-2x"></i></a>
                         </div>
                     </div>
                 </div>
