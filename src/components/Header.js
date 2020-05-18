@@ -3,6 +3,8 @@ import { Link, useStaticQuery, graphql } from "gatsby"
 
 import "../styles/header.css"
 
+import { Navs } from "../utilities/Constants"
+
 const getAuthor = graphql`
   {
     site {
@@ -39,26 +41,15 @@ const Header = () => {
 
         <div className="collapse navbar-collapse" id="Navbar">
           <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#skills">
-                Skiils
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Experience
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Projects
-              </a>
-            </li>
+            {Navs.map(nav=> {
+              return (
+                <li className="nav-item">
+                  <a className="nav-link" href={nav.href}>
+                    {nav.name}
+                  </a>
+                </li>
+              )
+            })}
           </ul>
         </div>
       </div>

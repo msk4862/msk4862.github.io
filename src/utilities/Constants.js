@@ -1,3 +1,22 @@
+export const Navs = [
+  {
+    name: "About",
+    href: "#",
+  },
+  {
+    name: "Skills",
+    href: "#skills",
+  },
+  {
+    name: "Experience",
+    href: "#experience",
+  },
+  {
+    name: "Projects",
+    href: "#",
+  },
+]
+
 export const SocialLinks = {
   github: "https://github.com/msk4862",
   linkedin: "https://www.linkedin.com/in/msk4862",
