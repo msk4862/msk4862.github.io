@@ -49,17 +49,14 @@ export const Games = [
   },
   {
     name: "Funcandi Hidden Object",
-    url:
-      " https://play.google.com/store/apps/details?id=gamedevelopers.funcandi.hiddenobjects",
+    url: "https://play.google.com/store/apps/details?id=gamedevelopers.funcandi.hiddenobjects",
   },
   {
     name: "Funcandi Episodic Game",
-    url:
-      "https://play.google.com/store/apps/details?id=gamedevelopers.funcandi.episode",
+    url: "https://play.google.com/store/apps/details?id=gamedevelopers.funcandi.episode",
   },
   {
     name: "Funcandi Brain Booster",
-    url:
-      "https://play.google.com/store/apps/details?id=brainbooster.funcandi.com.brainbooster1",
+    url: "https://play.google.com/store/apps/details?id=brainbooster.funcandi.com.brainbooster1",
   },
 ]
