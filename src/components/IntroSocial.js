@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
-
 import Image from "gatsby-image"
 
 import { SocialLinks } from "../utilities/Constants"
@@ -19,7 +18,7 @@ const getProfileImage = graphql`
 
 const IntroSocial = () => {
   const img = useStaticQuery(getProfileImage)
-
+  
   return (
     <div className="profile col-12 col-sm-12 col-md-3 ml-auto">
       <div className="row profile-img ml-auto mr-auto">
@@ -45,9 +44,6 @@ const IntroSocial = () => {
         </a>
         <a href={SocialLinks.github} target="blank">
           <i className="zoom fa fa-github fa-2x"></i>
-        </a>
-        <a href={SocialLinks.facebook} target="blank">
-          <i className="zoom fa fa-facebook-square fa-2x"></i>
         </a>
         <a href={SocialLinks.twitter} target="blank">
           <i className="zoom fa fa-twitter-square fa-2x"></i>

@@ -1,0 +1,21 @@
+.projects-set {
+    margin-top: 2rem;
+}
+
+.projects .card {
+    background-color: #2b313a;
+    border: 0px;
+    text-align: center;
+}
+
+.projects .card-text {
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+.projects .card a {
+    color: #00adb5;
+    font-size: 1.2rem;
+}
+
+  

@@ -6,6 +6,7 @@ import Layout from "../components/Layout"
 import Intro from "../components/Intro"
 import Skills from "../components/Skills"
 import Experiences from "../components/Experiences"
+import Projects from "../components/Projects"
 
 export default () => {
   return (
@@ -13,6 +14,7 @@ export default () => {
       <Intro />
       <Skills />
       <Experiences />
+      <Projects />
     </Layout>
   )
 }
