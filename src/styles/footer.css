@@ -1,6 +1,10 @@
-.footer {
-  background-color: #511845;
-  font-size: 1.5rem;
-  padding: 10px;
-  border-top: #eeeeee 0.3px solid;
+footer .row {
+  margin: 0;
+  padding: 0;
 }
+
+footer {
+  padding: 20px 0 20px 0;
+}
+
+

@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from "gatsby"
 import { Helmet } from "react-helmet"
 
 import Header from "./Header"
+import Footer from "./Footer"
 
 const getSiteMetaData = graphql`
   {
@@ -31,6 +32,7 @@ const Layout = ({ children }) => {
       </Helmet>
       <Header />
       <main>{children}</main>
+      <Footer />
     </>
   )
 }
