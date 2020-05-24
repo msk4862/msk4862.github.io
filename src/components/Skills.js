@@ -7,6 +7,7 @@ import { SkillsList } from "../utilities/Constants"
 const Skills = () => {
 
   return (
+  
     <section id="skills">
       <div className="conatiner-fluid">
           <div className="row justify-content-center">
@@ -21,8 +22,7 @@ const Skills = () => {
                   <h5>{skill.name}</h5>
                   <div className="progress">
                     <div
-                      className="progress-bar progress-bar-animated"
-                      aria-valuenow="40"
+                      className="progress-bar"
                       aria-valuemin="0"
                       aria-valuemax="100"
                       style={{ width: `${skill.expertise}`}}

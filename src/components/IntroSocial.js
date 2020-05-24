@@ -20,7 +20,7 @@ const IntroSocial = () => {
   const img = useStaticQuery(getProfileImage)
   
   return (
-    <div className="col-12 col-lg-4 ml-auto order-lg-2">
+    <div className="profile col-12 col-lg-4 ml-auto order-lg-2">
       <div className="row profile-img ml-auto mr-auto">
         <Image
           className="rounded-circle"

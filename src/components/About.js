@@ -43,10 +43,10 @@ const About = () => {
                 {Eductaion.map(edu => {
                   return (
                     <div key={edu.title} className="row">
-                      <div className="col-sm-1">
+                      <div className="col-1">
                         <i className="fa fa-graduation-cap"></i>
                       </div>
-                      <div className="col-sm-10">
+                      <div className="col-10">
                         <span>{edu.title}</span> <br />
                         <span className="ed-meta">{edu.name}</span>
                       </div>

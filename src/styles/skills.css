@@ -7,7 +7,7 @@
 }
 
 .progress {
-  height: 20px;
+  height: 25px;
   background-color: #f8f8f8;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .progress-bar span {
-  margin-right: 5px;
+  margin-right: 10px;
   font-size: 15px;
   color: #f8f8f8;
   font-weight: 500;

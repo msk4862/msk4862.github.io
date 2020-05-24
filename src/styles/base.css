@@ -44,12 +44,19 @@ section {
   background-color: #00adb5;
 }
 
+/* For tablet screens */
+@media screen and (max-width: 992px) {
 
-
-/* For mobo screens */
-@media only screen and (max-width: 600px) {
   .left-title {
-    margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
   }
+  .profile {
+    margin-bottom: 35px;
+  }
 }
+
+/* For mobo screens */
+/* @media only screen and (max-width: 600px) and () {
+  
+} */

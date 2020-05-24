@@ -10,16 +10,16 @@ const getProjectThumbnails = graphql`
 {
     allFile(filter: {relativeDirectory: {eq: "projects_thumbnails"}}) {
       nodes {
-        relativePath,
+        relativePath
         childImageSharp {
-            fixed(width: 250, height: 250) {
-                ...GatsbyImageSharpFixed_withWebp
-            }
+          fluid(maxWidth: 250, quality: 100) {
+            ...GatsbyImageSharpFluid_withWebp
+            ...GatsbyImageSharpFluidLimitPresentationSize
+          }
         }
       }
     }
-}
-  
+}   
 `
 
 const Projects = () => {
@@ -44,21 +44,22 @@ const Projects = () => {
                         //finding correct image
                         const image = nodes.find((img) => 
                             img.relativePath.endsWith(project.image)
-                        ).childImageSharp.fixed
+                        ).childImageSharp.fluid
 
                         return (
                             <div key={project.name} className="col-12 col-sm-6 col-md-4 col-lg-3">
                                 <div className="card">
-                                    <a href={project.href} >
-                                            <Image 
-                                                className="card-img align-self-center" 
-                                                fixed={image} alt={project.name}/>
-                                    </a>
+                                    <div className="card-img">
+                                        <Image 
+                                            className=""
+                                            fluid={image} 
+                                            alt={project.name}/>
+                                    </div>
                                     <div className="row card-body justify-content-center">
                                         <a className="col-12" href={project.href} >
                                             {project.name}
                                         </a>
-                                        <p className="card-text col-12">{project.description}</p>
+                                        <p className="card-text col-10 col-sm-12">{project.description}</p>
                                     </div>
                                 </div>
                             </div>
