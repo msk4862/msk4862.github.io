@@ -17,7 +17,7 @@ const Skills = () => {
           <div className="row justify-content-around mt-2">
             {SkillsList.map(skill => {
               return (
-                <div className="skill col-12 col-sm-4 col-md-3">
+                <div key={skill.name} className="skill col-12 col-sm-4 col-md-3">
                   <h5>{skill.name}</h5>
                   <div className="progress">
                     <div

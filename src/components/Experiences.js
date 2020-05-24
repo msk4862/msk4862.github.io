@@ -11,7 +11,7 @@ const Experiences = () => {
         <div className="row justify-content-between">
           {/* Left blank coloumn */}
           <div className="col-12 col-sm-12 col-md-4">
-            <h1 className="in-head">Experience</h1>
+            <h1 className="left-title">Experience</h1>
           </div>
 
           {/* Right experience cards */}

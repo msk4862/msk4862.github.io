@@ -12,6 +12,17 @@
     text-align: center;
 }
 
+.projects .card-img {
+    transition: ease-out 0.25s;
+    opacity: 1;
+}
+
+.projects .card-img:hover {
+    opacity: 0.5;
+}
+
+
+
 .projects .card-text {
     margin-top: 10px;
     font-size: 0.95rem;

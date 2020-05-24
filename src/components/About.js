@@ -7,7 +7,7 @@ import { Interests, Eductaion } from "../utilities/Constants"
 const About = () => {
     return (
         <div className="col-12 col-sm-12 col-md-8 order-md-1">
-            <h1 className="in-head">About</h1>
+            <h1 className="left-title">About</h1>
 
             <p>
               <i>

@@ -43,3 +43,13 @@ section {
   color: #eeeeee;
   background-color: #00adb5;
 }
+
+
+
+/* For mobo screens */
+@media only screen and (max-width: 600px) {
+  .left-title {
+    margin-top: 20px;
+    text-align: center;
+  }
+}

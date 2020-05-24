@@ -12,7 +12,7 @@ const getProjectThumbnails = graphql`
       nodes {
         relativePath,
         childImageSharp {
-            fixed(width: 200, height: 200) {
+            fixed(width: 250, height: 250) {
                 ...GatsbyImageSharpFixed_withWebp
             }
         }
@@ -47,15 +47,15 @@ const Projects = () => {
                         ).childImageSharp.fixed
 
                         return (
-                            <div key={project.name} className="col-12 col-sm-6 col-md-3">
+                            <div key={project.name} className="col-12 col-sm-6 col-md-4 col-lg-3">
                                 <div className="card">
                                     <a href={project.href} >
-                                        <Image 
-                                            className="align-self-center" 
-                                            fixed={image} alt={project.name}/>
+                                            <Image 
+                                                className="card-img align-self-center" 
+                                                fixed={image} alt={project.name}/>
                                     </a>
                                     <div className="row card-body justify-content-center">
-                                        <a href={project.href} >
+                                        <a className="col-12" href={project.href} >
                                             {project.name}
                                         </a>
                                         <p className="card-text col-12">{project.description}</p>
