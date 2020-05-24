@@ -13,7 +13,7 @@ export const Navs = [
   },
   {
     name: "Projects",
-    href: "#",
+    href: "#projects",
   },
 ]
 
