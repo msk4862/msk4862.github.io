@@ -5,6 +5,8 @@ import { Helmet } from "react-helmet"
 import Header from "./Header"
 import Footer from "./Footer"
 
+import icon from "../images/favicon.ico"
+
 const getSiteMetaData = graphql`
   {
     site {
@@ -28,6 +30,7 @@ const Layout = ({ children }) => {
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
+        <link rel="icon" href={icon} />
         <meta name="description" content={description} />
       </Helmet>
       <Header />
