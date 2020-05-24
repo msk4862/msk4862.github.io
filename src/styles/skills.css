@@ -2,14 +2,30 @@
   margin-top: 2rem;
 }
 
+.skill {
+  margin-bottom: 2.25rem;
+}
+
+.skill h5 {
+  color: #f8f8f8;
+}
+
 .progress {
-  height: 30px;
+  height: 20px;
+  background-color: #f8f8f8;
 }
 
 .progress-bar {
-  background-color: #00adb5;
+  background-color: #12947f;
+}
 
-  font-size: 1.2rem;
+.progress-bar span {
+  margin-right: 5px;
+  font-size: 15px;
   color: #f8f8f8;
   font-weight: 500;
+  text-align: end;  
+
 }
+
+

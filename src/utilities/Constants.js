@@ -41,6 +41,41 @@ export const Eductaion = [
   },
 ]
 
+export const SkillsList = [
+  {
+    name: "C++",
+    expertise: "95%"
+  },
+  {
+    name: "JavaScript",
+    expertise: "90%"
+  },
+  {
+    name: "Python",
+    expertise: "95%"
+  },
+  {
+    name: "ReactJs",
+    expertise: "95%"
+  },
+  {
+    name: "Unity3D",
+    expertise: "90%"
+  },
+  {
+    name: "Django",
+    expertise: "95%"
+  },
+  {
+    name: "Docker",
+    expertise: "80%"
+  },
+  {
+    name: "Bootstrap",
+    expertise: "90%"
+  },
+]
+
 export const Games = [
   {
     name: "Kido3D-Educational AR based App for Kids",
