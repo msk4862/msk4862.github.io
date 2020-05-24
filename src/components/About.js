@@ -40,7 +40,6 @@ const About = () => {
               {/* Education */}
               <div className="col-12 col-sm-6">
                 <h3>Eductaion</h3>
-
                 {Eductaion.map(edu => {
                   return (
                     <div key={edu.title} className="row">

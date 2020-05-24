@@ -7,7 +7,7 @@ import { Games } from "../utilities/Constants"
 const Experiences = () => {
   return (
     <section className="experience" id="experience">
-      <div className="container">
+      <div className="container-fluid">
         <div className="row justify-content-between">
           {/* Left blank coloumn */}
           <div className="col-12 col-sm-12 col-md-4">

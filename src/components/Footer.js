@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="row justify-content-center">
-          <h4>Designed and developed by Shoaib Asgar</h4>
+          <h4>Developed by Shoaib Asgar</h4>
       </div>
       <Socials />
     </footer>

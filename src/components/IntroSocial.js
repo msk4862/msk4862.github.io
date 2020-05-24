@@ -31,7 +31,7 @@ const IntroSocial = () => {
         <h2>Shoaib Asgar</h2>
       </div>
       <div className="row profile-designation justify-content-center">
-        <h4>
+        <h4 className="col-12 col-sm-8">
           MCA - Department of Computer Science
           Delhi University
         </h4>

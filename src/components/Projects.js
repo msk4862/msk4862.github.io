@@ -32,7 +32,7 @@ const Projects = () => {
 
     return (
         <section className="projects" id="projects">
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row justify-content-center">
                     <div className="col-*">
                         <h1 className="in-head">Projects</h1>
