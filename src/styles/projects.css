@@ -2,6 +2,10 @@
     margin-top: 2rem;
 }
 
+.projects-set > div {
+    margin-bottom: 2.25rem;
+}
+
 .projects .card {
     background-color: #2b313a;
     border: 0px;
