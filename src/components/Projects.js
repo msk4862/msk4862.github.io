@@ -38,7 +38,7 @@ const Projects = () => {
                         <h1 className="in-head">Projects</h1>
                     </div>
                 </div>
-                <div className="projects-set row justify-content-between">
+                <div className="projects-set row justify-content-around">
                     {ProjectsList.map(project => {
 
                         //finding correct image
@@ -50,11 +50,14 @@ const Projects = () => {
                             <div key={project.name} className="col-12 col-sm-6 col-md-4 col-lg-3">
                                 <div className="card">
                                     <div className="card-img">
+                                        <a href={project.href}>
                                         <Image 
                                             className=""
                                             fluid={image} 
                                             alt={project.name}/>
+                                        </a> 
                                     </div>
+                                    
                                     <div className="row card-body justify-content-center">
                                         <a className="col-12" href={project.href} >
                                             {project.name}

@@ -12,10 +12,6 @@
     text-align: center;
 }
 
-.projects .card-img {
-    transition: ease-in-out 0.25s;
-    opacity: 1;
-}
 
 /* centering fluid image  */
 .card-img .gatsby-image-wrapper {
@@ -25,10 +21,14 @@
   
 }
 
-.projects .card-img:hover {
-    opacity: 0.65;
+.card-img {
+    opacity: 1;
+    transition: ease-out 0.25s;
 }
 
+.card-img:hover {
+    opacity: 0.3;
+}
 
 
 .projects .card-text {

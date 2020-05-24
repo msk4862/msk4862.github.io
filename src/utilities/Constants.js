@@ -116,7 +116,7 @@ export const Projects = [
   },
   {
     name: "BIT FOREST",
-    image: "bit.jpg",
+    image: "bit.png",
     href: "https://github.com/msk4862/Bit-Forest",
     description: "An android application to teach kids about blockchain in a fun and innovative gamified way.",
   },
@@ -125,5 +125,11 @@ export const Projects = [
     image: "draw.jpg",
     href: "https://github.com/msk4862/AR-3D-Draw",
     description: "An AR based app, using which we can draw in the real world.",
+  },
+  {
+    name: "Stick Cricket 2D",
+    image: "cricket.png",
+    href: "https://github.com/msk4862/Stick-Ckricket-2D",
+    description: "Stick Ckricket 2D game developed using Unity3D.",
   },
 ]
