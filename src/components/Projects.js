@@ -49,7 +49,9 @@ const Projects = () => {
                         return (
                             <div key={project.name} className="col-12 col-sm-6 col-md-3">
                                 <div className="card">
-                                    <Image className="align-self-center" fixed={image} alt={project.name}/>
+                                    <Image 
+                                        className="align-self-center" 
+                                        fixed={image} alt={project.name}/>
                                     <div className="card-body">
                                         <a href={project.href} >
                                             {project.name}

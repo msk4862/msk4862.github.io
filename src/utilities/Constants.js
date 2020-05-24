@@ -103,6 +103,12 @@ export const Projects = [
     description: "Web app to search copyright free images, developed using ReactJs and ExpressJs.",
   },
   {
+    name: "WhatUp",
+    image: "blog.jpg",
+    href: "https://github.com/msk4862/WhatUp",
+    description: "A blogging webapp using ReactJs and Django.",
+  },
+  {
     name: "STREAMING PLATFORM",
     image: "live.png",
     href: "https://github.com/msk4862/streaming-platform",
@@ -120,5 +126,4 @@ export const Projects = [
     href: "https://github.com/msk4862/AR-3D-Draw",
     description: "An AR based app, using which we can draw in the real world.",
   },
-  
 ]
