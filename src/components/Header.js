@@ -43,7 +43,7 @@ const Header = () => {
           <ul className="navbar-nav">
             {Navs.map(nav => {
               return (
-                <li className="nav-item">
+                <li key={nav.name} className="nav-item">
                   <a className="nav-link" href={nav.href}>
                     {nav.name}
                   </a>

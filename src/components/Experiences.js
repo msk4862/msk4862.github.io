@@ -63,7 +63,7 @@ const Experiences = () => {
                       <ol>
                         {Games.map(game => {
                           return (
-                            <li>
+                            <li key={game.name}>
                               {game.name}:{" "}
                               <a href={game.url} target="blank">
                                 See on PlayStore{" "}

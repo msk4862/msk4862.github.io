@@ -19,6 +19,10 @@
   justify-content: center;
 }
 
+.profile-designation {
+  text-align: center;
+}
+
 .profile-title h2 {
   color: #eeeeee;
 }

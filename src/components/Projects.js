@@ -29,7 +29,6 @@ const Projects = () => {
             nodes
         }
     } = useStaticQuery(getProjectThumbnails);
-    console.log(nodes);
 
     return (
         <section className="projects" id="projects">
@@ -48,7 +47,7 @@ const Projects = () => {
                         ).childImageSharp.fixed
 
                         return (
-                            <div className="col-12 col-sm-6 col-md-3">
+                            <div key={project.name} className="col-12 col-sm-6 col-md-3">
                                 <div className="card">
                                     <Image className="align-self-center" fixed={image} alt={project.name}/>
                                     <div className="card-body">
