@@ -38,7 +38,7 @@ const Projects = () => {
                         <h1 className="in-head">Projects</h1>
                     </div>
                 </div>
-                <div className="projects-set row justify-content-around">
+                <div className="projects-set row">
                     {ProjectsList.map(project => {
 
                         //finding correct image
@@ -56,6 +56,7 @@ const Projects = () => {
                                             fluid={image} 
                                             alt={project.name}/>
                                         </a> 
+                                        
                                     </div>
                                     
                                     <div className="row card-body justify-content-center">
@@ -63,6 +64,11 @@ const Projects = () => {
                                             {project.name}
                                         </a>
                                         <p className="card-text col-10 col-sm-12">{project.description}</p>
+                                    </div>
+                                    <div className="tech row justify-content-center">
+                                        {project.stack.map(tech => {
+                                            return <span>{tech}</span>
+                                        })}
                                     </div>
                                 </div>
                             </div>
