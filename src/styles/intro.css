@@ -27,11 +27,8 @@
   color: #eeeeee;
 }
 
-.social-links {
-  padding-top: 10px;
-}
-
 .social-links > a {
+  font-size: 2.25rem;
   padding: 0 7px 0 7px;
   color: #00918e;
 }
