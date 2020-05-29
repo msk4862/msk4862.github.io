@@ -1,55 +1,47 @@
 .projects-set {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 .projects-set > div {
-    margin-bottom: 2.25rem;
+  margin-bottom: 2.25rem;
 }
 
 .projects .card {
-    background-color: #2b313a;
-    border: 0px;
-    text-align: center;
+  background-color: #2b313a;
+  border: 0px;
+  text-align: center;
 }
-
 
 /* centering fluid image  */
 .card-img .gatsby-image-wrapper {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card-img {
-    opacity: 1;
-    transition: ease-out 0.25s;
+  opacity: 1;
+  transition: ease-out 0.25s;
 }
 
 .card-img:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
-
 
 .projects .card-text {
-    margin-top: 10px;
-    font-size: 0.95rem;
+  font-size: 1rem;
 }
 
-.projects .card a {
-    color: #00adb5;
-    font-size: 1.2rem;
+.projects .card h5 {
+  color: #00adb5;
 }
 
 .projects .card-body {
-    padding: 1rem;
+  padding: 1rem;
 }
 
-.projects .tech span{
-    font-size: 12px;
-    background-color: #222831;
-    margin-right: 10px;
-    margin-bottom: 1rem;
-    padding: 7.25px;
-
+.projects .tech small {
+  background-color: #222831;
+  margin-right: 5px;
+  padding: 5px;
 }

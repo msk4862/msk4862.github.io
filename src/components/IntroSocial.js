@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
 
-import Socials from "../components/Socials";
+import Socials from "../components/Socials"
 
 const getProfileImage = graphql`
   {
@@ -18,7 +18,7 @@ const getProfileImage = graphql`
 
 const IntroSocial = () => {
   const img = useStaticQuery(getProfileImage)
-  
+
   return (
     <div className="profile col-12 col-lg-4 ml-auto order-lg-2">
       <div className="row profile-img ml-auto mr-auto">
@@ -28,13 +28,12 @@ const IntroSocial = () => {
         />
       </div>
       <div className="row profile-title justify-content-center">
-        <h2>Shoaib Asgar</h2>
+        <h3>Shoaib Asgar</h3>
       </div>
       <div className="row profile-designation justify-content-center">
-        <h4 className="col-12 col-sm-8">
-          MCA - Department of Computer Science
-          Delhi University
-        </h4>
+        <h5 className="col-8 col-sm-8">
+          MCA - Department of Computer Science Delhi University
+        </h5>
       </div>
       <Socials />
     </div>

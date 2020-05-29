@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import "../styles/404.css"
 
 const error = () => {
-
   return (
     <div className="page-404">
       <div className="text-404">404</div>

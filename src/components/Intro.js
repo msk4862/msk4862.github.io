@@ -10,7 +10,7 @@ const Intro = () => {
       <div className="container-fluid">
         <div className="row justify-content-between">
           <IntroSocial />
-          <About/>
+          <About />
         </div>
       </div>
     </section>

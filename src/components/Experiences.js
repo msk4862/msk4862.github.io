@@ -11,7 +11,7 @@ const Experiences = () => {
         <div className="row justify-content-between">
           {/* Left blank coloumn */}
           <div className="col-12 col-sm-12 col-md-4">
-            <h1 className="left-title">Experience</h1>
+            <h2 className="left-title">Experience</h2>
           </div>
 
           {/* Right experience cards */}
@@ -21,9 +21,9 @@ const Experiences = () => {
                 <div className="card-text">
                   <strong>Web Developer</strong>
                   <br />
-                  <i>RG SmartDiscovery LLP</i>
+                  <span>RG SmartDiscovery LLP</span>
                   <br />
-                  <i>Sep 2018 – May 2019, Delhi</i>
+                  <small>Sep 2018 – May 2019, Delhi</small>
                   <br />
                   <br />
                   <ul>
@@ -47,9 +47,9 @@ const Experiences = () => {
                 <div className="card-text">
                   <strong>Game Developer</strong>
                   <br />
-                  <i>Genie Fusion LLC</i>
+                  <span>Genie Fusion LLC</span>
                   <br />
-                  <i>Jun 2017 – Feb 2019, Delhi</i>
+                  <small>Jun 2017 – Feb 2019, Delhi</small>
                   <br />
                   <br />
                   <ul>

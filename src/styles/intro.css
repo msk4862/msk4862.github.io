@@ -1,11 +1,10 @@
 .intro-section {
   color: #eeeeee;
-  font-size: 1.3rem;
   background-color: #222831;
+  margin-top: 2.5rem;
 }
 
 .ed-meta {
-  font-size: 0.9em;
   color: #5f6769;
 }
 
@@ -23,12 +22,12 @@
   text-align: center;
 }
 
-.profile-title h2 {
+.profile-title h3 {
   color: #eeeeee;
 }
 
 .social-links > a {
-  font-size: 2.25rem;
+  font-size: var(--h3);
   padding: 0 7px 0 7px;
   color: #00918e;
 }
