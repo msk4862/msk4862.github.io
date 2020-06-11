@@ -133,7 +133,7 @@ export const Projects = [
     href: "https://github.com/msk4862/Bit-Forest",
     description:
       "An android application to teach kids about blockchain in a fun and innovative gamified way.",
-    stack: ["Java", "Android"],
+    stack: ["Java", "Android", "UI/UX"],
   },
   {
     name: "AR-3D Draw",
@@ -147,6 +147,6 @@ export const Projects = [
     image: "cricket.png",
     href: "https://github.com/msk4862/Stick-Ckricket-2D",
     description: "2D stick ckricket game developed using Unity3D.",
-    stack: ["Unity3D"],
+    stack: ["Unity3D", "UI/UX"],
   },
 ]
