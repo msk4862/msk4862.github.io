@@ -27,7 +27,7 @@ const Header = () => {
     <nav className="navbar navbar-dark navbar-expand-sm fixed-top">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <h3>{title}</h3>
+          <h4>{title}</h4>
         </Link>
 
         <button

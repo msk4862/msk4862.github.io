@@ -109,7 +109,7 @@ section {
 /* For mobo screens */
 @media screen and (max-width: 600px) {
   :root {
-    --base-size: 0.85em;
+    --base-size: 0.75em;
   }
 
   section,
