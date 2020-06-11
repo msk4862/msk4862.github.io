@@ -6,7 +6,7 @@
   margin-bottom: 2.25rem;
 }
 
-.projects .card {
+.projects-set .card {
   background-color: #2b313a;
   border: 0px;
   text-align: center;
@@ -28,19 +28,19 @@
   opacity: 0.7;
 }
 
-.projects .card-text {
+.projects-set .card-text {
   font-size: 1rem;
 }
 
-.projects .card h5 {
+.projects-set .card h5 {
   color: #00adb5;
 }
 
-.projects .card-body {
+.projects-set .card-body {
   padding: 1rem;
 }
 
-.projects .tech small {
+.projects-set .tech small {
   background-color: #222831;
   margin-right: 5px;
   padding: 5px;

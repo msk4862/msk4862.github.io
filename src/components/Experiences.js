@@ -1,12 +1,13 @@
 import React from "react"
 
 import "../styles/experiences.css"
-
+import Triangle from "../components/Triangle"
 import { Games } from "../utilities/Constants"
 
 const Experiences = () => {
   return (
-    <section className="experience" id="experience">
+    <>
+    <section className="dark-bg" id="experience">
       <div className="container-fluid">
         <div className="row justify-content-between">
           {/* Left blank coloumn */}
@@ -83,6 +84,8 @@ const Experiences = () => {
         </div>
       </div>
     </section>
+    <Triangle type="dark"/>
+    </>
   )
 }
 

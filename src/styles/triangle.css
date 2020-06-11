@@ -1,0 +1,22 @@
+.triangle {
+    width: 100%;
+    height: calc(100vh / 6);
+    margin: 0;
+}
+
+.triangle-dark {
+    background-color: var(--primary-light-color);
+}
+
+.triangle-light {
+    background-color: var(--primary-dark-color);
+}
+
+.triangle-dark .triangle-path {
+    fill: var(--primary-dark-color);
+}
+
+
+.triangle-light .triangle-path {
+    fill: var(--primary-light-color);
+}

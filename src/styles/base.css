@@ -7,8 +7,14 @@
   --h3: calc(var(--h4) * var(--type-scale));
   --h2: calc(var(--h3) * var(--type-scale));
   --h1: calc(var(--h2) * var(--type-scale));
-
   --small: calc(var(--base-size) / var(--type-scale));
+
+  --primary-dark-color: #222831;
+  --primary-light-color: #2b313a;
+  --secondary-color: #00adb5;
+  --font-normal-color: #eeeeee;
+  --font-dark-color: #5f6769;
+
 }
 
 html {
@@ -17,8 +23,8 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #eeeeee;
-  background-color: #222831;
+  color: var(--font-normal-color);
+  background-color: var(--primary-dark-color);
 }
 
 h1,
@@ -26,7 +32,7 @@ h2,
 h3,
 h4,
 h5 {
-  color: #5f6769;
+  color: var(--font-dark-color);
 }
 
 p,
@@ -61,16 +67,20 @@ h1 {
 
 a,
 a:hover {
-  color: #eeeeee;
+  color: var(--font-normal-color);
   text-decoration: none;
 }
 
-section:nth-child(even) {
-  background-color: #2b313a;
+.dark-bg {
+  background-color: var(--primary-dark-color);
+}
+
+.light-bg {
+  background-color: var(--primary-light-color);
 }
 
 section {
-  padding: 70px 30px 70px 30px;
+  padding: 70px 30px 50px 30px;
 }
 
 .card {
@@ -87,8 +97,8 @@ section {
 }
 
 *::selection {
-  color: #eeeeee;
-  background-color: #00adb5;
+  color: var(--font-normal-color);
+  background-color: var(--secondary-color);
 }
 
 /* For tablet screens */

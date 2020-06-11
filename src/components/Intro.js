@@ -3,17 +3,21 @@ import React from "react"
 import "../styles/intro.css"
 import About from "../components/About"
 import IntroSocial from "../components/IntroSocial"
+import Triangle from "../components/Triangle"
 
 const Intro = () => {
   return (
-    <section className="intro-section">
-      <div className="container-fluid">
-        <div className="row justify-content-between">
-          <IntroSocial />
-          <About />
+    <>
+      <section id="intro-section" className="dark-bg">
+        <div className="container-fluid">
+          <div className="row justify-content-between">
+            <IntroSocial />
+            <About />
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <Triangle type="dark"/>
+     </>
   )
 }
 

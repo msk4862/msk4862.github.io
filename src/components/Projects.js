@@ -3,7 +3,6 @@ import { graphql, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
 
 import "../styles/projects.css"
-
 import { Projects as ProjectsList } from "../utilities/Constants"
 
 const getProjectThumbnails = graphql`
@@ -28,7 +27,7 @@ const Projects = () => {
   } = useStaticQuery(getProjectThumbnails)
 
   return (
-    <section className="projects" id="projects">
+    <section className="light-bg" id="projects">
       <div className="container-fluid">
         <div className="row justify-content-center">
           <div className="col-*">
