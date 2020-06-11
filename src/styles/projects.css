@@ -7,7 +7,7 @@
 }
 
 .projects-set .card {
-  background-color: #2b313a;
+  background-color: var(--primary-light-color);
   border: 0px;
   text-align: center;
 }
@@ -33,7 +33,7 @@
 }
 
 .projects-set .card h5 {
-  color: #00adb5;
+  color: var(--secondary-color);
 }
 
 .projects-set .card-body {
@@ -41,7 +41,7 @@
 }
 
 .projects-set .tech small {
-  background-color: #222831;
+  background-color: var(--primary-dark-color);
   margin-right: 5px;
   padding: 5px;
 }

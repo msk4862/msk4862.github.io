@@ -3,21 +3,21 @@
 }
 
 .skill h5 {
-  color: #f8f8f8;
+  color: var(--font-normal-color);
 }
 
 .progress {
   height: 25px;
-  background-color: #f8f8f8;
+  background-color: var(--font-normal-color);
 }
 
 .progress-bar {
-  background-color: #00adb5;
+  background-color: var(--secondary-color);
 }
 
 .progress-bar span {
   margin-right: 10px;
-  color: #f8f8f8;
+  color: var(--font-normal-color);
   font-weight: 200;
   text-align: end;
 }

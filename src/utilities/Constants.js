@@ -1,7 +1,7 @@
 export const Navs = [
   {
     name: "About",
-    href: "#",
+    href: "#intro",
   },
   {
     name: "Skills",

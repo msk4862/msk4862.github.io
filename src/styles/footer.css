@@ -4,6 +4,6 @@ footer .row {
 }
 
 footer {
-  border-top: 1px solid #00adb5;
+  border-top: 1px solid var(--secondary-color);
   padding: 20px 0 20px 0;
 }

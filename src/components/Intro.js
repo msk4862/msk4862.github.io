@@ -8,7 +8,7 @@ import Triangle from "../components/Triangle"
 const Intro = () => {
   return (
     <>
-      <section id="intro-section" className="dark-bg">
+      <section id="intro" className="dark-bg">
         <div className="container-fluid">
           <div className="row justify-content-between">
             <IntroSocial />

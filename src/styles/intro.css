@@ -1,11 +1,9 @@
-.intro-section {
-  color: #eeeeee;
-  background-color: #222831;
+#intro {
   margin-top: 2.5rem;
 }
 
 .ed-meta {
-  color: #5f6769;
+  color: var(--font-dark-color);
 }
 
 .profile-img {
@@ -23,18 +21,18 @@
 }
 
 .profile-title h3 {
-  color: #eeeeee;
+  color: var(--font-normal-color);
 }
 
 .social-links > a {
   font-size: var(--h3);
   padding: 0 7px 0 7px;
-  color: #00918e;
+  color: var(--secondary-color);
 }
 
 .social-links > a :hover {
   text-decoration: none;
-  color: #eeeeee;
+  color: var(--font-normal-color);
 }
 
 .eductaion-list > li > i {

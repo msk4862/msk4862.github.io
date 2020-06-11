@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #5f6769;
+  color: var(--font-dark-color);
 }
 
 .text-404 {
@@ -13,10 +13,10 @@
 }
 
 .page-404 a {
-  color: #939494;
+  color: var(--font-dark-color);
   text-decoration: underline;
 }
 
 .page-404 a:hover {
-  color: #939494;
+  color: var(--font-dark-color);
 }

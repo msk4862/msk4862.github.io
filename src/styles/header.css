@@ -1,7 +1,7 @@
 .navbar {
-  background-color: #00918e;
+  background-color: var(--secondary-color);
 }
 
 .navbar-brand h4 {
-  color: #eeeeee;
+  color: var(--font-normal-color);
 }
