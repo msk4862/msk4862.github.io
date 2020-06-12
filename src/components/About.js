@@ -12,7 +12,7 @@ const About = () => {
       <p>
         <i>
           “People enjoy the interaction on the Internet, and the feeling of
-          belonging to a group that does something interesting: that’s how some
+          belonging to a group that does something interesting, that’s how some
           software projects are born.”
         </i>{" "}
         - Linus Torvalds
