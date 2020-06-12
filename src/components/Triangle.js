@@ -6,12 +6,16 @@ const Triangle = ({type}) => {
     return (        
         <svg 
             className={`triangle triangle-${type}`} 
-            viewBox="0 0 500 500" role="presentation" 
-            preserveAspectRatio="none">
+            viewBox="0 0 500 550" role="presentation" 
+            preserveAspectRatio="none" >
             {/* <defs>
                 <filter id="dropshadow"  height="200">
-                <feGaussianBlur in="SourceAlpha" stdDeviation="20"/> 
-                <feOffset dx="0" dy="-10" result="offsetblur"/>
+                <feGaussianBlur in="SourceAlpha" stdDeviation="50"/> 
+                <feOffset dx="0" dy="50" result="offsetblur"/>
+                <feComponentTransfer>
+                    <feFuncA type="linear" slope="0.5"/>
+                </feComponentTransfer>
+
                 <feMerge> 
                     <feMergeNode/>
                     <feMergeNode in="SourceGraphic"/> 
