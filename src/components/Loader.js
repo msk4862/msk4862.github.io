@@ -1,12 +1,16 @@
 import React, { useEffect } from "react";
-import { TimelineMax, Power2, Bounce } from "gsap";
+import { TimelineMax, Power2, Bounce, gsap } from "gsap";
+import { CSSPlugin } from 'gsap/CSSPlugin'
 
 import "../styles/loader.css"
 
-const Loader = () => {
+const Loader = ({loading}) => {
+
+    // Force CSSPlugin to not get dropped during build
+    gsap.registerPlugin(CSSPlugin)
 
     useEffect(()=> {
-        var tl = new TimelineMax({repeat: -1});
+        var tl = new TimelineMax({repeat: 2, onComplete: ()=>loading(false)});
         tl.from(".stand", 0.3, {
           scaleY: 0,
           transformOrigin: "bottom",
@@ -18,7 +22,7 @@ const Loader = () => {
           ease: Bounce.easeOut
         })
         
-        tl.from(".lower-border", 0.3, {
+        tl.from(".lower-border", 0.4, {
           scaleX: 0,
           transformOrigin: "center",
           ease: Bounce.easeOut
@@ -39,7 +43,7 @@ const Loader = () => {
           ease: Power2.easeOut,
         }, -0.08)
         
-    }, [])
+    }, [loading])
 
 
     return (
