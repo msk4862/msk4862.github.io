@@ -5,15 +5,15 @@ import Image from "gatsby-image"
 import Socials from "../components/Socials"
 
 const getProfileImage = graphql`
-  {
-    file(relativePath: { eq: "profile/profile.jpg" }) {
-      childImageSharp {
-        fixed {
-          ...GatsbyImageSharpFixed_withWebp
-        }
+{
+  file(relativePath: {eq: "profile/profile.jpg"}) {
+    childImageSharp {
+      fixed(quality: 100) {
+        ...GatsbyImageSharpFixed_withWebp
       }
     }
   }
+}
 `
 
 const IntroSocial = () => {

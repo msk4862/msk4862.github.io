@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React, { useState } from "react"
 
 import "../styles/base.css"
 
@@ -12,12 +12,6 @@ import Projects from "../components/Projects"
 export default () => {
 
   const [isLoading, setisLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(()=> {
-      setisLoading(false);
-    }, 5500);
-  }, [])
 
   function renderLayout() {
     return (
@@ -33,7 +27,7 @@ export default () => {
   function renderLoader() {
     return (
       <div className="svg-container">
-        <Loader />
+        <Loader loading={(load)=>setisLoading(load)}/>
       </div>
     )
   }
