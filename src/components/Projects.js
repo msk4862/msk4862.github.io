@@ -62,7 +62,7 @@ const Projects = () => {
                     </p>
                     <div className="tech col">
                       {project.stack.map(tech => {
-                        return <small>{tech}</small>
+                        return <small key={tech}>{tech}</small>
                       })}
                     </div>
                   </div>
