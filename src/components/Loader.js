@@ -10,7 +10,7 @@ const Loader = ({loading}) => {
     gsap.registerPlugin(CSSPlugin)
 
     useEffect(()=> {
-        var tl = new TimelineMax({repeat: 2, onComplete: ()=>loading(false)});
+        var tl = new TimelineMax({repeat: 1, onComplete: ()=>loading(false)});
         tl.from(".stand", 0.3, {
           scaleY: 0,
           transformOrigin: "bottom",
