@@ -8,14 +8,14 @@
  */
     height: 100vh;
     display: flex;
-    margin-top: -5rem;
+    margin-top: -4.65rem;
     justify-content: center;
     align-items: center;
     text-align: center;
 
 }
 
-.banner p,span {
+.banner p, .banner span {
     font-size: 2rem;
 }
 

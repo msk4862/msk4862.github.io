@@ -35,7 +35,7 @@ const Banner = () => {
             </div>
             <div className="row justify-content-center align-items-center">
                 <div className="banner-btn">
-                    <a to="#intro" className="btn btn-gradient">Know More</a>   
+                    <a herf="#intro" className="btn btn-gradient">Know More</a>   
                 </div>
             </div>
         </div>
