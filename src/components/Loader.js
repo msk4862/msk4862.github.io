@@ -47,7 +47,7 @@ const Loader = ({loading}) => {
 
 
     return (
-    <svg version="1.1" id="loader" x="0px" y="0px"
+    <svg version="1.1" className="loader" x="0px" y="0px"
          viewBox="0 0 512 512">
         <g>
             <path fill="#E8EDEE" className="stand" d="M361.931,494.345H150.069c0-19.5,15.81-35.31,35.31-35.31h141.241

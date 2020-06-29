@@ -1,7 +1,21 @@
 .navbar {
-  background-color: var(--secondary-color);
+  background-color: transparent;
+  padding: 1.5rem;
 }
 
 .navbar-brand h4 {
   color: var(--font-normal-color);
+}
+
+.navbar-nav li {
+  margin-right: 1.75rem;
+}
+
+.navbar-nav a {
+  color: var(--font-dark-color);
+  font-size: 1.25rem;
+}
+
+.navbar-nav a:hover {
+  color: var(--secondary-color);
 }

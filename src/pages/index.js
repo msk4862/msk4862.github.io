@@ -8,6 +8,7 @@ import Intro from "../components/Intro"
 import Skills from "../components/Skills"
 import Experiences from "../components/Experiences"
 import Projects from "../components/Projects"
+import Banner from "../components/Banner"
 
 export default () => {
 
@@ -16,6 +17,7 @@ export default () => {
   function renderLayout() {
     return (
       <Layout>
+        <Banner />
         <Intro />
         <Skills />
         <Experiences />

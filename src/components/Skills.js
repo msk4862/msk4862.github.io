@@ -26,7 +26,7 @@ const Skills = () => {
                       aria-valuemax="100"
                       style={{ width: `${skill.expertise}` }}
                     >
-                      <span>{skill.expertise}</span>
+                      <small>{skill.expertise}</small>
                     </div>
                   </div>
                 </div>

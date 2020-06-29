@@ -8,7 +8,6 @@ const About = () => {
   return (
     <div className="col-12 col-lg-8">
       <h2 className="left-title">About</h2>
-
       <p>
         <i>
           “People enjoy the interaction on the Internet, and the feeling of

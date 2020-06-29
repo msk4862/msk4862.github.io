@@ -1,0 +1,12 @@
+.banner {
+    min-height: 380px;
+    text-align: center;
+}
+
+.banner p,span {
+    font-size: 2rem;
+}
+
+.banner span {
+    color: var(--secondary-color);
+}

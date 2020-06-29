@@ -5,7 +5,7 @@
     min-height: 100vh;
 }
 
-#loader {
+.loader {
   width: calc(100vw / 6);
   height: auto;
 }

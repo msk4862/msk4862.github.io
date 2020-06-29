@@ -15,7 +15,7 @@
   background-color: var(--secondary-color);
 }
 
-.progress-bar span {
+.progress-bar small {
   margin-right: 10px;
   color: var(--font-normal-color);
   font-weight: 200;

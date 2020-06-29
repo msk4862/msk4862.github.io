@@ -96,6 +96,27 @@ section {
   transform: scale(1.12);
 }
 
+.btn-gradient {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: var(--font-normal-color);
+  border-image: linear-gradient(45deg, var(--secondary-color), var(--font-normal-color));
+  border-width: 3px;
+  border-image-slice: 1;
+}
+
+.btn {
+  transition: 0.5s ease-in;
+  font-size: var(--h5);
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--font-normal-color);
+  border-image: none;
+  border-radius: 0;
+}
+
 *::selection {
   color: var(--font-normal-color);
   background-color: var(--secondary-color);
