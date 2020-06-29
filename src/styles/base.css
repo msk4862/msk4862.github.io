@@ -83,6 +83,10 @@ section {
   padding: 3.25rem 1.85rem 2rem 1.85rem;
 }
 
+section h2 {
+  margin-bottom: 1rem;
+}
+
 .card {
   box-shadow: 6px 6px 8px 2px rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
