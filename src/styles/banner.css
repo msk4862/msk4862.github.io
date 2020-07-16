@@ -1,21 +1,34 @@
 .banner {
-    /* background-image: url("../images/banner.jpg");
-    height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-image: url("../images/banner.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
- */
     height: 100vh;
     display: flex;
     margin-top: -4.65rem;
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    z-index: -1;
 }
 
-.banner p, .banner span {
+.banner .bg-overlay {
+    position: absolute;
+    background-color: var(--primary-dark-color);
+    opacity: 0.65;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.banner .bg-content {
+    z-index: 3;
+}
+
+.banner p,
+.banner span {
     font-size: 2rem;
 }
 

@@ -1,9 +1,9 @@
 #experience .card {
-  margin-bottom: 1.25rem;
-  background-color: var(--primary-dark-color);
+    margin-bottom: 1.25rem;
+    background-color: var(--primary-dark-color);
 }
 
 #experience a {
-  color: var(--secondary-color);
-  text-decoration: underline;
+    color: var(--secondary-color);
+    text-decoration: underline;
 }

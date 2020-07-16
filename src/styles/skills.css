@@ -1,23 +1,23 @@
 .skill {
-  margin-bottom: 2.25rem;
+    margin-bottom: 2.25rem;
 }
 
 .skill h5 {
-  color: var(--font-normal-color);
+    color: var(--font-normal-color);
 }
 
 .progress {
-  height: 25px;
-  background-color: var(--font-normal-color);
+    height: 25px;
+    background-color: var(--font-normal-color);
 }
 
 .progress-bar {
-  background-color: var(--secondary-color);
+    background-color: var(--secondary-color);
 }
 
 .progress-bar small {
-  margin-right: 10px;
-  color: var(--font-normal-color);
-  font-weight: 200;
-  text-align: end;
+    margin-right: 10px;
+    color: var(--font-normal-color);
+    font-weight: 200;
+    text-align: end;
 }

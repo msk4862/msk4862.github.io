@@ -1,30 +1,29 @@
 :root {
-  --base-size: calc(15px + 0.25vh);
-  --type-scale: 1.25;
+    --base-size: calc(15px + 0.25vh);
+    --type-scale: 1.25;
 
-  --h5: calc(var(--base-size) * var(--type-scale));
-  --h4: calc(var(--h5) * var(--type-scale));
-  --h3: calc(var(--h4) * var(--type-scale));
-  --h2: calc(var(--h3) * var(--type-scale));
-  --h1: calc(var(--h2) * var(--type-scale));
-  --small: calc(var(--base-size) / var(--type-scale));
+    --h5: calc(var(--base-size) * var(--type-scale));
+    --h4: calc(var(--h5) * var(--type-scale));
+    --h3: calc(var(--h4) * var(--type-scale));
+    --h2: calc(var(--h3) * var(--type-scale));
+    --h1: calc(var(--h2) * var(--type-scale));
+    --small: calc(var(--base-size) / var(--type-scale));
 
-  --primary-dark-color: #222831;
-  --primary-light-color: #2b313a;
-  --secondary-color: #00adb5;
-  --font-normal-color: #eeeeee;
-  --font-dark-color: #5f6769;
-
+    --primary-dark-color: #222831;
+    --primary-light-color: #2b313a;
+    --secondary-color: #00adb5;
+    --font-normal-color: #eeeeee;
+    --font-dark-color: #5f6769;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
-  color: var(--font-normal-color);
-  background-color: var(--primary-dark-color);
+    font-family: "Open Sans", sans-serif;
+    color: var(--font-normal-color);
+    background-color: var(--primary-dark-color);
 }
 
 h1,
@@ -32,125 +31,129 @@ h2,
 h3,
 h4,
 h5 {
-  color: var(--font-dark-color);
+    color: var(--font-dark-color);
 }
 
 p,
 strong {
-  font-size: var(--h5);
+    font-size: var(--h5);
 }
 
 li,
 span {
-  font-size: var(--base-size);
+    font-size: var(--base-size);
 }
 
 small {
-  font-size: var(--small);
+    font-size: var(--small);
 }
 
 h5 {
-  font-size: var(--h5);
+    font-size: var(--h5);
 }
 h4 {
-  font-size: var(--h4);
+    font-size: var(--h4);
 }
 h3 {
-  font-size: var(--h3);
+    font-size: var(--h3);
 }
 h2 {
-  font-size: var(--h2);
+    font-size: var(--h2);
 }
 h1 {
-  font-size: var(--h1);
+    font-size: var(--h1);
 }
 
 a,
 a:hover {
-  color: var(--font-normal-color);
-  text-decoration: none;
+    color: var(--font-normal-color);
+    text-decoration: none;
 }
 
 .dark-bg {
-  background-color: var(--primary-dark-color);
+    background-color: var(--primary-dark-color);
 }
 
 .light-bg {
-  background-color: var(--primary-light-color);
+    background-color: var(--primary-light-color);
 }
 
 section {
-  padding: 3.25rem 1.85rem 2rem 1.85rem;
+    padding: 3.25rem 1.85rem 2rem 1.85rem;
 }
 
 section h2 {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 .card {
-  box-shadow: 6px 6px 8px 2px rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 6px 6px 8px 2px rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .zoom {
-  transition: ease 0.25s;
+    transition: ease 0.25s;
 }
 
 .zoom:hover {
-  transform: scale(1.12);
+    transform: scale(1.12);
 }
 
 .btn-gradient {
-  padding: 0.5rem 1rem;
-  background-color: transparent;
-  color: var(--font-normal-color);
-  border-image: linear-gradient(45deg, var(--secondary-color), var(--font-normal-color));
-  border-width: 3px;
-  border-image-slice: 1;
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    color: var(--font-normal-color);
+    border-image: linear-gradient(
+        45deg,
+        var(--secondary-color),
+        var(--font-normal-color)
+    );
+    border-width: 3px;
+    border-image-slice: 1;
 }
 
 .btn {
-  transition: 0.5s ease-in;
-  font-size: var(--h5);
+    transition: 0.5s ease-in;
+    font-size: var(--h5);
 }
 
 .btn:hover {
-  background-color: var(--secondary-color);
-  color: var(--font-normal-color);
-  border-image: none;
-  border-radius: 0;
+    background-color: var(--secondary-color);
+    color: var(--font-normal-color);
+    border-image: none;
+    border-radius: 0;
 }
 
 *::selection {
-  color: var(--font-normal-color);
-  background-color: var(--secondary-color);
+    color: var(--font-normal-color);
+    background-color: var(--secondary-color);
 }
 
 /* For tablet screens */
 @media screen and (max-width: 992px) {
-  :root {
-    --base-size: 0.95em;
-  }
+    :root {
+        --base-size: 0.95em;
+    }
 
-  .left-title {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .profile {
-    margin-bottom: 35px;
-  }
+    .left-title {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .profile {
+        margin-bottom: 35px;
+    }
 }
 
 /* For mobo screens */
 @media screen and (max-width: 600px) {
-  :root {
-    --base-size: 0.75em;
-  }
+    :root {
+        --base-size: 0.75em;
+    }
 
-  section,
-  ul,
-  ol {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+    section,
+    ul,
+    ol {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }

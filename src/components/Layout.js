@@ -1,43 +1,43 @@
-import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
-import { Helmet } from "react-helmet"
+import React from "react";
+import { graphql, useStaticQuery } from "gatsby";
+import { Helmet } from "react-helmet";
 
-import Header from "./Header"
-import Footer from "./Footer"
+import Header from "./Header";
+import Footer from "./Footer";
 
-import icon from "../images/favicon.ico"
+import icon from "../images/favicon.ico";
 
 const getSiteMetaData = graphql`
-  {
-    site {
-      siteMetadata {
-        title
-        description
-      }
+    {
+        site {
+            siteMetadata {
+                title
+                description
+            }
+        }
     }
-  }
-`
+`;
 
 const Layout = ({ children }) => {
-  const {
-    site: {
-      siteMetadata: { title, description },
-    },
-  } = useStaticQuery(getSiteMetaData)
+    const {
+        site: {
+            siteMetadata: { title, description },
+        },
+    } = useStaticQuery(getSiteMetaData);
 
-  return (
-    <>
-      <Helmet>
-        <html lang="en" />
-        <title>{title}</title>
-        <link rel="icon" href={icon} />
-        <meta name="description" content={description} />
-      </Helmet>
-      <Header />
-      <main>{children}</main>
-      <Footer />
-    </>
-  )
-}
+    return (
+        <>
+            <Helmet>
+                <html lang="en" />
+                <title>{title}</title>
+                <link rel="icon" href={icon} />
+                <meta name="description" content={description} />
+            </Helmet>
+            <Header />
+            <main>{children}</main>
+            <Footer />
+        </>
+    );
+};
 
-export default Layout
+export default Layout;
