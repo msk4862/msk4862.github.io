@@ -3,8 +3,17 @@
     z-index: 3;
 }
 
+.navbar .navbar-toggler {
+    outline: none;
+}
+
 .navbar-brand h4 {
     color: var(--font-normal-color);
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
 }
 
 .navbar-nav li {

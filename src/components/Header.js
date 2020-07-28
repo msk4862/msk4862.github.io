@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useStaticQuery, graphql } from "gatsby";
 
 import "../styles/header.css";
-import Icon from "../images/favicon.ico";
+import Icon from "../images/profile/profile_sm.png";
 import { Navs } from "../utilities/Constants";
 
 const getAuthor = graphql`

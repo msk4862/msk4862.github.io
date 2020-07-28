@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { TimelineMax, Bounce, Elastic } from "gsap";
+import { TimelineMax, Bounce } from "gsap";
 // import "../utilities/PageScroller/jquery.onepage-scroll.min.js"
 // import "../utilities/PageScroller/onepage-scroll.css"
 
@@ -22,21 +22,30 @@ const Banner = () => {
             },
             "+=0.01"
         );
-
-        tl.from(".banner-btn", 1.5, {
-            x: -1000,
-            ease: Elastic.easeOut,
-        });
     }, []);
 
     useEffect(() => {
-        window.addEventListener("load", () => {
-            document.querySelector("body").classList.add("loaded");
+        // window.addEventListener("load", () => {
+        //     document.querySelector("body").classList.add("loaded");
+        // });
+
+        document.getElementById("banner").addEventListener("scroll", () => {
+            console.log("event");
         });
     }, []);
 
+    function scroll() {
+        console.log("asas asjkas");
+        // document.querySelector("#banner").scrollTo(window.screenY);
+        // document.querySelector("#banner").scrollHeight = screen.height;
+    }
+
     return (
-        <div className="banner">
+        <div
+            id="banner"
+            className="banner"
+            onLoad={() => console.log("enter")}
+            onWheel={() => scroll()}>
             <div className="bg-overlay"></div>
             <div className="bg-content">
                 <div className="row justify-content-center align-items-center">
@@ -47,7 +56,7 @@ const Banner = () => {
                         <p className="banner-text2">
                             I'm a full-stack web developer.
                         </p>
-                        <a herf="#intro" className="btn btn-gradient">
+                        <a href="#intro" className="btn btn-gradient">
                             Know More
                         </a>
                     </div>

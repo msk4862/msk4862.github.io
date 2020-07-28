@@ -35,3 +35,11 @@
 .banner span {
     color: var(--secondary-color);
 }
+
+/* For mobo screens */
+@media screen and (max-width: 600px) {
+    .banner p,
+    .banner span {
+        font-size: 1.5rem;
+    }
+}
