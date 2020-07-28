@@ -13,7 +13,7 @@
     --primary-light-color: #2b313a;
     --secondary-color: #00adb5;
     --font-normal-color: #eeeeee;
-    --font-dark-color: #5f6769;
+    --font-dark-color: #98a6ad;
 }
 
 html {
@@ -34,20 +34,6 @@ h5 {
     color: var(--font-dark-color);
 }
 
-p,
-strong {
-    font-size: var(--h5);
-}
-
-li,
-span {
-    font-size: var(--base-size);
-}
-
-small {
-    font-size: var(--small);
-}
-
 h5 {
     font-size: var(--h5);
 }
@@ -62,6 +48,15 @@ h2 {
 }
 h1 {
     font-size: var(--h1);
+}
+
+p,
+li {
+    font-size: var(--base-size);
+}
+
+small {
+    font-size: var(--small);
 }
 
 a,

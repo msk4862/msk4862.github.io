@@ -7,15 +7,15 @@ import { SkillsList } from "../utilities/Constants";
 const Skills = () => {
     return (
         <>
-            <section id="skills" className="light-bg">
+            <section id="skills" className="skills light-bg">
                 <div className="conatiner-fluid">
                     <div className="row justify-content-center">
                         <div className="col-*">
                             <h2>Skills</h2>
                         </div>
                     </div>
-                    <div className="row justify-content-around mt-2">
-                        {SkillsList.map(skill => {
+                    <div className="row justify-content-center mt-3">
+                        {/* {SkillsList.map(skill => {
                             return (
                                 <div
                                     key={skill.name}
@@ -32,6 +32,17 @@ const Skills = () => {
                                             <small>{skill.expertise}</small>
                                         </div>
                                     </div>
+                                </div>
+                            );
+                        })} */}
+
+                        {SkillsList.map(item => {
+                            return (
+                                <div class="col-12 col-sm-4 text-center">
+                                    <h4>{item.header}</h4>
+                                    {item.items.map(skill => {
+                                        return <p>{skill}</p>;
+                                    })}
                                 </div>
                             );
                         })}

@@ -46,8 +46,10 @@ const About = () => {
                                     <i className="fa fa-graduation-cap"></i>
                                 </div>
                                 <div className="col-10">
-                                    <span>{edu.title}</span> <br />
-                                    <span className="ed-meta">{edu.name}</span>
+                                    <p className="mb-0">{edu.title}</p>
+                                    <small className="ed-meta">
+                                        {edu.name}
+                                    </small>
                                 </div>
                             </div>
                         );

@@ -25,10 +25,6 @@ const Banner = () => {
     }, []);
 
     useEffect(() => {
-        // window.addEventListener("load", () => {
-        //     document.querySelector("body").classList.add("loaded");
-        // });
-
         document.getElementById("banner").addEventListener("scroll", () => {
             console.log("event");
         });
@@ -50,12 +46,12 @@ const Banner = () => {
             <div className="bg-content">
                 <div className="row justify-content-center align-items-center">
                     <div className="col">
-                        <p className="banner-text1 mb-0">
+                        <h3 className="banner-text1 mb-0">
                             Hello, I'm <span>Shoaib Asgar</span>
-                        </p>
-                        <p className="banner-text2">
+                        </h3>
+                        <h3 className="banner-text2">
                             I'm a full-stack web developer.
-                        </p>
+                        </h3>
                         <a href="#intro" className="btn btn-gradient">
                             Know More
                         </a>

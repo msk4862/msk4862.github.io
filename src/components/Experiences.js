@@ -7,7 +7,7 @@ import { Games } from "../utilities/Constants";
 const Experiences = () => {
     return (
         <>
-            <section className="dark-bg" id="experience">
+            <section className="dark-bg experience" id="experience">
                 <div className="container-fluid">
                     <div className="row justify-content-between">
                         {/* Left blank coloumn */}
@@ -20,16 +20,50 @@ const Experiences = () => {
                             <div className="card">
                                 <div className="card-body">
                                     <div className="card-text">
-                                        <strong>Web Developer</strong>
-                                        <br />
-                                        <span>RG SmartDiscovery LLP</span>
-                                        <br />
+                                        <h5>Full Stack Developer</h5>
+                                        <p className="mb-0">Oneworldlearners</p>
                                         <small>
-                                            Sep 2018 – May 2019, Delhi
+                                            <span>Feb 2020 – July 2020</span>
+                                            <span className="dot-devider"></span>
+                                            <span>Delhi</span>
                                         </small>
-                                        <br />
-                                        <br />
-                                        <ul>
+                                        <ul className="mt-3">
+                                            <li>
+                                                Responsible for server-side web
+                                                application logic, cron jobs,
+                                                APIs design, unit-testing and
+                                                debugging.
+                                            </li>
+                                            <li>
+                                                Integrated payement gateway for
+                                                payment management.
+                                            </li>
+                                            <li>
+                                                Designed and created UI/UX of
+                                                the frontend.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* /card */}
+
+                        {/* card */}
+                        <div className="col-12 col-sm-12 col-md-8 ml-auto">
+                            <div className="card">
+                                <div className="card-body">
+                                    <div className="card-text">
+                                        <h5>Web Developer</h5>
+                                        <p className="mb-0">
+                                            RG SmartDiscovery LLP
+                                        </p>
+                                        <small>
+                                            <span>Sep 2018 – May 2019</span>
+                                            <span className="dot-devider"></span>
+                                            <span>Delhi</span>
+                                        </small>
+                                        <ul className="mt-3">
                                             <li>
                                                 Work with AWS, HTML5, CSS,
                                                 JavaScript, PHP and everything
@@ -45,21 +79,23 @@ const Experiences = () => {
                                 </div>
                             </div>
                         </div>
+                        {/* /card */}
 
+                        {/* card */}
                         <div className="col-12 col-sm-12 col-md-8 ml-auto">
                             <div className="card">
                                 <div className="card-body">
                                     <div className="card-text">
-                                        <strong>Game Developer</strong>
-                                        <br />
-                                        <span>Genie Fusion LLC</span>
-                                        <br />
+                                        <h5>Game Developer</h5>
+                                        <p className="mb-0">
+                                            RG SmartDiscovery LLP
+                                        </p>
                                         <small>
-                                            Jun 2017 – Feb 2019, Delhi
+                                            <span>Jun 2017 – Feb 2019</span>
+                                            <span className="dot-devider"></span>
+                                            <span>Delhi</span>
                                         </small>
-                                        <br />
-                                        <br />
-                                        <ul>
+                                        <ul className="mt-3">
                                             <li>
                                                 Design and develop
                                                 Cross-platform mobile games with
@@ -94,6 +130,7 @@ const Experiences = () => {
                             </div>
                             {/* Card over */}
                         </div>
+                        {/* /card */}
                     </div>
                 </div>
             </section>

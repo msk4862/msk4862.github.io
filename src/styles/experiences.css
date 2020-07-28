@@ -1,9 +1,17 @@
-#experience .card {
+.experience .card {
     margin-bottom: 1.25rem;
     background-color: var(--primary-dark-color);
 }
 
-#experience a {
+.experience a {
     color: var(--secondary-color);
     text-decoration: underline;
+}
+
+.dot-devider {
+    margin: 0 7px;
+}
+
+.dot-devider::after {
+    content: "\00B7";
 }

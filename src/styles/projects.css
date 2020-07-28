@@ -28,10 +28,6 @@
     opacity: 0.7;
 }
 
-.projects-set .card-text {
-    font-size: 1rem;
-}
-
 .projects-set .card h5 {
     color: var(--secondary-color);
 }

@@ -1,12 +1,25 @@
-.skill {
-    margin-bottom: 2.25rem;
+.skills p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
 }
 
-.skill h5 {
-    color: var(--font-normal-color);
+.skills h4::after {
+    margin-top: 7px;
+    content: "";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 2px;
+    background-color: var(--secondary-color);
 }
 
-.progress {
+.skills i {
+    width: 50px;
+    height: 50px;
+}
+
+/* .progress {
     height: 25px;
     background-color: var(--font-normal-color);
 }
@@ -20,4 +33,4 @@
     color: var(--font-normal-color);
     font-weight: 200;
     text-align: end;
-}
+} */

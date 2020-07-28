@@ -27,9 +27,8 @@
     z-index: 3;
 }
 
-.banner p,
-.banner span {
-    font-size: 2rem;
+.banner h3 {
+    color: var(--font-normal-color);
 }
 
 .banner span {

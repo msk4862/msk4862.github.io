@@ -44,37 +44,56 @@ export const Eductaion = [
 
 export const SkillsList = [
     {
-        name: "C++",
-        expertise: "95%",
+        header: "Frameworks",
+        items: ["ReactJs", "Django", "Bootstrap"],
     },
     {
-        name: "JavaScript",
-        expertise: "90%",
+        header: "Languages",
+        items: ["C++", "Javascript", "Python", "Java"],
     },
     {
-        name: "Python",
-        expertise: "95%",
+        header: "Cloud Computing",
+        items: [
+            "AWS S3, Lambda, Elasticsearch",
+            "Google Cloud AppEngine, Storage, CloudSQL",
+        ],
     },
     {
-        name: "ReactJs",
-        expertise: "95%",
+        header: "Databases",
+        items: ["MySQL", "SQLite", "MongoDB"],
     },
     {
-        name: "Unity3D",
-        expertise: "90%",
+        header: "Others",
+        items: ["Docker", "Git", "npm/Yarn"],
     },
-    {
-        name: "Django",
-        expertise: "95%",
-    },
-    {
-        name: "Docker",
-        expertise: "80%",
-    },
-    {
-        name: "Bootstrap",
-        expertise: "90%",
-    },
+    // {
+    //     name: "JavaScript",
+    //     expertise: "90%",
+    // },
+    // {
+    //     name: "Python",
+    //     expertise: "95%",
+    // },
+    // {
+    //     name: "ReactJs",
+    //     expertise: "95%",
+    // },
+    // {
+    //     name: "Unity3D",
+    //     expertise: "90%",
+    // },
+    // {
+    //     name: "Django",
+    //     expertise: "95%",
+    // },
+    // {
+    //     name: "Docker",
+    //     expertise: "80%",
+    // },
+    // {
+    //     name: "Bootstrap",
+    //     expertise: "90%",
+    // },
 ];
 
 export const Games = [
