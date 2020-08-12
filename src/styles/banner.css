@@ -35,6 +35,10 @@
     color: var(--secondary-color);
 }
 
+.banner .hidden {
+    display: hidden;
+}
+
 /* For mobo screens */
 @media screen and (max-width: 600px) {
     .banner p,

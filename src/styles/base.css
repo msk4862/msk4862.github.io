@@ -87,10 +87,11 @@ section h2 {
 }
 
 .zoom {
-    transition: ease 0.25s;
+    transition: ease-out 0.2s;
 }
 
 .zoom:hover {
+    cursor:pointer;
     transform: scale(1.12);
 }
 

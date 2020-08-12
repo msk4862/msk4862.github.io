@@ -3,6 +3,7 @@ import React from "react";
 import { SocialLinks } from "../utilities/Constants";
 
 const Socials = () => {
+
     return (
         <div className="row social-links justify-content-center">
             <a href={SocialLinks.linkedin} target="blank">

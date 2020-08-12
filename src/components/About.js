@@ -6,23 +6,21 @@ import { Interests, Eductaion } from "../utilities/Constants";
 
 const About = () => {
     return (
-        <div className="col-12 col-lg-8">
+        <div className="about col-12 col-lg-8">
             <h2 className="left-title">About</h2>
-            <p>
-                <i>
-                    “People enjoy the interaction on the Internet, and the
+            <p className="quote">
+                    People enjoy the interaction on the Internet, and the
                     feeling of belonging to a group that does something
-                    interesting, that’s how some software projects are born.”
-                </i>{" "}
-                - Linus Torvalds
+                    interesting, that’s how some software projects are born.
+                    <footer>- Linus Torvalds</footer>
+                This quote somehow summarizes my work and motivation.
             </p>
-
-            <p>This quote somehow summarizes my work and motivation.</p>
-            <br />
             <p>
-                Hi, I am a computer science postgrad student. I love programming
-                and interested in solving real world problems using the
-                technologies present out there.
+                Hi, I'm Shoaib Asgar, a Full Stack Developer <span role="img" aria-label="emoji">&#x1F680;</span> 
+                from Delhi, India 🇮🇳, currently, I am a computer science postgrad student who loves programming and
+                interested in solving real world problems using the technologies present out there. 
+                Beside's programming, I enjoy designing, photography and eating food 
+                <span role="img" aria-label="emoji1">&#x1F642;</span>.
             </p>
 
             <div className="row justify-content-start">
