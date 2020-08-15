@@ -26,12 +26,12 @@ export const SocialLinks = {
 };
 
 export const AboutConsts = {
-    quote: "People enjoy the interaction on the Internet, and the"+
-            "feeling of belonging to a group that does something"+
-            "interesting, that’s how some software projects are born.",
+    quote:
+        "People enjoy the interaction on the Internet, and the" +
+        "feeling of belonging to a group that does something" +
+        "interesting, that’s how some software projects are born.",
     by: "Linus Torvalds",
-
-}
+};
 
 export const Interests = [
     "Full Stack Development",
@@ -110,7 +110,7 @@ export const Projects = [
         image: "chat.jpg",
         href: "https://github.com/msk4862/Anomly",
         description:
-            "Anomly is a chat app where one can chat anonymously and can create "+
+            "Anomly is a chat app where one can chat anonymously and can create " +
             "unlimited chat rooms",
         stack: ["NextJs", "Socket-IO", "Bootstrap"],
     },

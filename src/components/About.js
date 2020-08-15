@@ -14,12 +14,20 @@ const About = () => {
                 This quote somehow summarizes my work and motivation.
             </p>
             <p>
-                Hi, I'm Shoaib Asgar, a Full Stack Developer <span role="img" aria-label="emoji">&#x1F680;</span> 
-                from Delhi, India 🇮🇳, currently, I am a computer science postgrad student who loves programming and
-                interested in solving real world problems using the technologies present out there. 
-                Beside's programming, I enjoy UI designing <i className="fas fa-paint-brush"></i>, 
-                photography <i className="fas fa-camera-retro pr-2"></i> and eating food 
-                <span role="img" aria-label="emoji1">&#x1F642;</span>.
+                Hi, I'm Shoaib Asgar, a Full Stack Developer{" "}
+                <span role="img" aria-label="emoji">
+                    &#x1F680;
+                </span>
+                from Delhi, India 🇮🇳, currently, I am a computer science
+                postgrad student who loves programming and interested in solving
+                real world problems using the technologies present out there.
+                Beside's programming, I enjoy UI designing{" "}
+                <i className="fas fa-paint-brush"></i>, photography{" "}
+                <i className="fas fa-camera-retro pr-2"></i> and eating food
+                <span role="img" aria-label="emoji1">
+                    &#x1F642;
+                </span>
+                .
             </p>
 
             <div className="row justify-content-start">

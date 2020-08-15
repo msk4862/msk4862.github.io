@@ -2,11 +2,10 @@
     border: none;
 }
 
-
 quote::before {
     line-height: 0px;
     content: open-quote;
-    font-family: Georgia,"Times New Roman",Times,serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
     color: var(--secondary-color);
     font-size: 4.5rem;
 }
