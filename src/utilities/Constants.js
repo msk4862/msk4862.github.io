@@ -21,11 +21,20 @@ export const SocialLinks = {
     github: "https://github.com/msk4862",
     linkedin: "https://www.linkedin.com/in/msk4862",
     twitter: "https://twitter.com/msk4862",
+    instagram: "https://www.instagram.com/msk4862",
     email: "shoaib.mca19.du@gmail.com",
 };
 
+export const AboutConsts = {
+    quote: "People enjoy the interaction on the Internet, and the"+
+            "feeling of belonging to a group that does something"+
+            "interesting, that’s how some software projects are born.",
+    by: "Linus Torvalds",
+
+}
+
 export const Interests = [
-    "Full Stack Web Development",
+    "Full Stack Development",
     "Game Development",
     "Augmented Reality",
     "Deep Learning",
@@ -44,14 +53,17 @@ export const Eductaion = [
 
 export const SkillsList = [
     {
+        icon: "fab fa-react",
         header: "Frameworks",
         items: ["ReactJs", "Django", "Bootstrap"],
     },
     {
+        icon: "fab fa-python",
         header: "Languages",
         items: ["C++", "Javascript", "Python", "Java"],
     },
     {
+        icon: "fa fa-cloud",
         header: "Cloud Computing",
         items: [
             "AWS S3, Lambda, Elasticsearch",
@@ -59,41 +71,15 @@ export const SkillsList = [
         ],
     },
     {
+        icon: "fa fa-database",
         header: "Databases",
         items: ["MySQL", "SQLite", "MongoDB"],
     },
     {
+        icon: "fa fa-database",
         header: "Others",
-        items: ["Docker", "Git", "npm/Yarn"],
+        items: ["Docker", "Git", "npm/yarn", "Travis CI", "Unity3D"],
     },
-    // {
-    //     name: "JavaScript",
-    //     expertise: "90%",
-    // },
-    // {
-    //     name: "Python",
-    //     expertise: "95%",
-    // },
-    // {
-    //     name: "ReactJs",
-    //     expertise: "95%",
-    // },
-    // {
-    //     name: "Unity3D",
-    //     expertise: "90%",
-    // },
-    // {
-    //     name: "Django",
-    //     expertise: "95%",
-    // },
-    // {
-    //     name: "Docker",
-    //     expertise: "80%",
-    // },
-    // {
-    //     name: "Bootstrap",
-    //     expertise: "90%",
-    // },
 ];
 
 export const Games = [
@@ -119,6 +105,15 @@ export const Games = [
 ];
 
 export const Projects = [
+    {
+        name: "Anomly",
+        image: "chat.jpg",
+        href: "https://github.com/msk4862/Anomly",
+        description:
+            "Anomly is a chat app where one can chat anonymously and can create "+
+            "unlimited chat rooms",
+        stack: ["NextJs", "Socket-IO", "Bootstrap"],
+    },
     {
         name: "No Copyright Image Search",
         image: "search.jpg",

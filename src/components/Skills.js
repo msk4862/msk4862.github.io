@@ -39,9 +39,10 @@ const Skills = () => {
                         {SkillsList.map(item => {
                             return (
                                 <div class="col-12 col-sm-4 text-center">
+                                    <h1><i className={item.icon}></i></h1>
                                     <h4>{item.header}</h4>
                                     {item.items.map(skill => {
-                                        return <p>{skill}</p>;
+                                        return <span>{skill}</span>
                                     })}
                                 </div>
                             );

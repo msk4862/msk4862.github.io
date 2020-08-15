@@ -2,24 +2,23 @@ import React from "react";
 
 import "../styles/intro.css";
 
-import { Interests, Eductaion } from "../utilities/Constants";
+import { Interests, Eductaion, AboutConsts } from "../utilities/Constants";
 
 const About = () => {
     return (
         <div className="about col-12 col-lg-8">
             <h2 className="left-title">About</h2>
             <p className="quote">
-                    People enjoy the interaction on the Internet, and the
-                    feeling of belonging to a group that does something
-                    interesting, that’s how some software projects are born.
-                    <footer>- Linus Torvalds</footer>
+                {AboutConsts.quote}
+                <footer>- {AboutConsts.by}</footer>
                 This quote somehow summarizes my work and motivation.
             </p>
             <p>
                 Hi, I'm Shoaib Asgar, a Full Stack Developer <span role="img" aria-label="emoji">&#x1F680;</span> 
                 from Delhi, India 🇮🇳, currently, I am a computer science postgrad student who loves programming and
                 interested in solving real world problems using the technologies present out there. 
-                Beside's programming, I enjoy designing, photography and eating food 
+                Beside's programming, I enjoy UI designing <i className="fas fa-paint-brush"></i>, 
+                photography <i className="fas fa-camera-retro pr-2"></i> and eating food 
                 <span role="img" aria-label="emoji1">&#x1F642;</span>.
             </p>
 

@@ -5,4 +5,4 @@ import "popper.js/dist/popper.min";
 import "bootstrap/dist/js/bootstrap.min.js";
 
 // ADDING FONTAWESOME
-import "font-awesome/css/font-awesome.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";

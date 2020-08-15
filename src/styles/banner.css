@@ -28,6 +28,7 @@
 }
 
 .banner h3 {
+    font-weight: 400;
     color: var(--font-normal-color);
 }
 
@@ -36,7 +37,7 @@
 }
 
 .banner .hidden {
-    display: hidden;
+    display: none;
 }
 
 /* For mobo screens */
