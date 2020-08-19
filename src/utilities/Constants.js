@@ -21,7 +21,6 @@ export const SocialLinks = {
     github: "https://github.com/msk4862",
     linkedin: "https://www.linkedin.com/in/msk4862",
     twitter: "https://twitter.com/msk4862",
-    instagram: "https://www.instagram.com/msk4862",
     email: "shoaib.mca19.du@gmail.com",
 };
 
@@ -76,7 +75,7 @@ export const SkillsList = [
         items: ["MySQL", "SQLite", "MongoDB"],
     },
     {
-        icon: "fa fa-database",
+        icon: "fa fa-code-branch",
         header: "Others",
         items: ["Docker", "Git", "npm/yarn", "Travis CI", "Unity3D"],
     },

@@ -14,9 +14,6 @@ const Socials = () => {
             <a href={SocialLinks.twitter} target="blank">
                 <i className="zoom fab fa-twitter"></i>
             </a>
-            <a href={`mailto:${SocialLinks.instagram}`}>
-                <i className="zoom fab fa-instagram"></i>
-            </a>
             <a href={`mailto:${SocialLinks.email}`}>
                 <i className="zoom fas fa-envelope"></i>
             </a>
