@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { graphql, useStaticQuery } from "gatsby";
 import { Helmet } from "react-helmet";
 
@@ -25,6 +25,36 @@ const Layout = ({ children }) => {
         },
     } = useStaticQuery(getSiteMetaData);
 
+    const scrollToTopBtn = useRef();
+
+    useEffect(() => {
+        document.addEventListener("scroll", handleScroll);
+
+        return () => document.removeEventListener("scroll", handleScroll);
+    }, [])
+
+    /**
+     * When scrolled more than 10% of screen height
+     */
+    const handleScroll = () => {
+        const rootElement = document.documentElement;
+
+        const scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+        if (scrollToTopBtn && (rootElement.scrollTop / scrollTotal ) > 0.10) {
+            scrollToTopBtn.classList.add("show-btn")
+        } else {
+            scrollToTopBtn.classList.remove("show-btn")
+        }
+    }
+
+    const scrollToTop = () => {
+        document.documentElement.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    }
+
+
     return (
         <>
             <Helmet>
@@ -33,6 +63,9 @@ const Layout = ({ children }) => {
                 <link rel="icon" href={icon} />
                 <meta name="description" content={description} />
             </Helmet>
+            <button ref={scrollToTopBtn} className="scroll-top" onClick={scrollToTop}>
+                <i className="fas fa-chevron-up"></i>
+            </button>
             <Header />
             <main>{children}</main>
             <Footer />

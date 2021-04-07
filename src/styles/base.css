@@ -140,6 +140,35 @@ section h2 {
     }
 }
 
+
+button.scroll-top {
+    outline: none;
+    border: none;
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--font-normal-color);
+    border-radius: 50%;
+    color: var(--primary-dark-color);
+    cursor: pointer;
+    font-size: var(--h4);
+    line-height: 48px;
+    width: 48px;
+    opacity: 0;
+    z-index: 5;
+    transform: translateY(100px);
+    transition: all .5s ease;  
+    -webkit-tap-highlight-color: transparent;
+}
+
+.show-btn {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 /* For mobo screens */
 @media screen and (max-width: 600px) {
     :root {
