@@ -15,3 +15,14 @@
 .dot-devider::after {
     content: "\00B7";
 }
+
+/* For mobo screens */
+@media screen and (max-width: 600px) {
+    .experience .card {
+        padding: 5px;
+    }
+
+    .experience .card-body {
+        padding: 10px;
+    }
+}

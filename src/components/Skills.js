@@ -43,9 +43,11 @@ const Skills = () => {
                                         <i className={item.icon}></i>
                                     </h1>
                                     <h4>{item.header}</h4>
-                                    {item.items.map(skill => {
-                                        return <span>{skill}</span>;
-                                    })}
+                                    <div className="">
+                                        {item.items.map(skill => {
+                                            return <span>{skill}</span>;
+                                        })}
+                                    </div>
                                 </div>
                             );
                         })}

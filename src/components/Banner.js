@@ -34,11 +34,11 @@ const Banner = () => {
     }, []);
 
     return (
-        <div id="banner" className="banner" onLoad={() => console.log("enter")}>
+        <div id="banner" className="banner">
             <div className="bg-overlay"></div>
             <div className="bg-content">
                 <div className="row justify-content-center align-items-center banner-content hidden">
-                    <div className="col">
+                    <div className="col-10 col-sm-12 p-0">
                         <h3 className="banner-text1 mb-0">
                             Hello, I'm{" "}
                             <a href={SocialLinks.github}>

@@ -54,18 +54,18 @@ export const SkillsList = [
     {
         icon: "fab fa-react",
         header: "Frameworks",
-        items: ["ReactJs", "Django", "Bootstrap"],
+        items: ["ReactJs", "Django", "Bootstrap", "Jest"],
     },
     {
         icon: "fab fa-python",
         header: "Languages",
-        items: ["C++", "Javascript", "Python", "Java"],
+        items: ["C++", "Python", "Javascript", "Java"],
     },
     {
         icon: "fa fa-cloud",
         header: "Cloud Computing",
         items: [
-            "AWS S3, Lambda, Elasticsearch",
+            "AWS S3, Lambda, Elastic Beanstalk",
             "Google Cloud AppEngine, Storage, CloudSQL",
         ],
     },
@@ -81,27 +81,16 @@ export const SkillsList = [
     },
 ];
 
-export const Games = [
-    {
-        name: "Kido3D-Educational AR based App for Kids",
-        url: "https://play.google.com/store/apps/details?id=com.funcandi.games",
-    },
-    {
-        name: "Funcandi Hidden Object",
-        url:
-            "https://play.google.com/store/apps/details?id=gamedevelopers.funcandi.hiddenobjects",
-    },
-    {
-        name: "Funcandi Episodic Game",
-        url:
-            "https://play.google.com/store/apps/details?id=gamedevelopers.funcandi.episode",
-    },
-    {
-        name: "Funcandi Brain Booster",
-        url:
-            "https://play.google.com/store/apps/details?id=brainbooster.funcandi.com.brainbooster1",
-    },
-];
+
+export const Experience = {
+    oneworldlearners: "Developed a managed online coaching platform from scratch using Django after analysing and refining given requirements.#"+
+    "Developed REST APIs and did unit testing along with designing and creation of UI/UX for the frontend.#"+
+    "Implemented cron jobs to handle periodic tasks like sending subscription renewal reminders, class reminders etc.#"+
+    "Led deployment of the website on GCP.#"+
+    "Integrated Paytm payment gateway for payment management.",
+
+    game_dev: "Designed and developed cross-platform mobile games with Unity3D and Android Studio.",
+}
 
 export const Projects = [
     {
