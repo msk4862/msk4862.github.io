@@ -1,48 +1,52 @@
 .about footer {
-    border: none;
+  border: none;
 }
 
 quote::before {
-    line-height: 0px;
-    content: open-quote;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: var(--secondary-color);
-    font-size: 4.5rem;
+  line-height: 0px;
+  content: open-quote;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: var(--secondary-color);
+  font-size: 4.5rem;
+}
+
+.education span:nth-child(2) {
+  color: var(--font-dark-color);
 }
 
 .ed-meta {
-    color: var(--font-dark-color);
+  color: var(--font-dark-color);
 }
 
 .profile-img {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 }
 
 .profile-title {
-    margin-top: 10px;
-    justify-content: center;
+  margin-top: 10px;
+  justify-content: center;
 }
 
 .profile-designation {
-    text-align: center;
+  text-align: center;
 }
 
 .profile-title h3 {
-    color: var(--font-normal-color);
+  color: var(--font-normal-color);
 }
 
 .social-links > a {
-    font-size: var(--h3);
-    padding: 0 7px 0 7px;
-    color: var(--secondary-color);
+  font-size: var(--h3);
+  padding: 0 7px 0 7px;
+  color: var(--secondary-color);
 }
 
 .social-links > a :hover {
-    text-decoration: none;
-    color: var(--font-normal-color);
+  text-decoration: none;
+  color: var(--font-normal-color);
 }
 
 .eductaion-list > li > i {
-    padding: 5px;
+  padding: 5px;
 }

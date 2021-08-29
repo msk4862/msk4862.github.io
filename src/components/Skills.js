@@ -5,17 +5,17 @@ import Triangle from "../components/Triangle";
 import { SkillsList } from "../utilities/Constants";
 
 const Skills = () => {
-    return (
-        <>
-            <section id="skills" className="skills light-bg">
-                <div className="conatiner-fluid">
-                    <div className="row justify-content-center">
-                        <div className="col-*">
-                            <h2>Skills</h2>
-                        </div>
-                    </div>
-                    <div className="row justify-content-center mt-3">
-                        {/* {SkillsList.map(skill => {
+  return (
+    <>
+      <section id="skills" className="skills light-bg">
+        <div className="conatiner-fluid">
+          <div className="row justify-content-center">
+            <div className="col-*">
+              <h2>Skills</h2>
+            </div>
+          </div>
+          <div className="row justify-content-center mt-3">
+            {/* {SkillsList.map(skill => {
                             return (
                                 <div
                                     key={skill.name}
@@ -36,27 +36,27 @@ const Skills = () => {
                             );
                         })} */}
 
-                        {SkillsList.map(item => {
-                            return (
-                                <div class="col-12 col-sm-4 text-center">
-                                    <h1>
-                                        <i className={item.icon}></i>
-                                    </h1>
-                                    <h4>{item.header}</h4>
-                                    <div className="">
-                                        {item.items.map(skill => {
-                                            return <span>{skill}</span>;
-                                        })}
-                                    </div>
-                                </div>
-                            );
-                        })}
-                    </div>
+            {SkillsList.map((item, index) => {
+              return (
+                <div key={index} className="col-12 col-sm-4 text-center">
+                  <h1>
+                    <i className={item.icon}></i>
+                  </h1>
+                  <h4>{item.header}</h4>
+                  <div>
+                    {item.items.map(skill => {
+                      return <span key={skill}>{skill}</span>;
+                    })}
+                  </div>
                 </div>
-            </section>
-            <Triangle type="light" />
-        </>
-    );
+              );
+            })}
+          </div>
+        </div>
+      </section>
+      <Triangle type="light" />
+    </>
+  );
 };
 
 export default Skills;

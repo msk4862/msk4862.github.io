@@ -11,27 +11,27 @@ import Projects from "../components/Projects";
 import Banner from "../components/Banner";
 
 export default () => {
-    const [isLoading, setisLoading] = useState(true);
+  const [isLoading, setisLoading] = useState(true);
 
-    function renderLayout() {
-        return (
-            <Layout>
-                <Banner />
-                <Intro />
-                <Skills />
-                <Experiences />
-                <Projects />
-            </Layout>
-        );
-    }
+  function renderLayout() {
+    return (
+      <Layout>
+        <Banner />
+        <Intro />
+        <Skills />
+        <Experiences />
+        <Projects />
+      </Layout>
+    );
+  }
 
-    function renderLoader() {
-        return (
-            <div className="svg-container">
-                <Loader loading={load => setisLoading(load)} />
-            </div>
-        );
-    }
+  function renderLoader() {
+    return (
+      <div className="svg-container">
+        <Loader loading={load => setisLoading(load)} />
+      </div>
+    );
+  }
 
-    return <>{isLoading ? renderLoader() : renderLayout()}</>;
+  return <>{isLoading ? renderLoader() : renderLayout()}</>;
 };

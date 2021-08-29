@@ -1,29 +1,29 @@
 .skills p {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .skills h4::after {
-    margin-top: 7px;
-    content: "";
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    height: 2px;
-    background-color: var(--secondary-color);
+  margin-top: 7px;
+  content: "";
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 2px;
+  background-color: var(--secondary-color);
 }
 
 .skills h1 {
-    color: var(--secondary-color);
-    font-size: 4.5rem;
+  color: var(--secondary-color);
+  font-size: 4.5rem;
 }
 
 .skills span:not(:last-child) {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 .skills span:not(:last-child)::after {
-    content: ",";
+  content: ",";
 }
 
 /* .progress {

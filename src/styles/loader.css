@@ -1,11 +1,11 @@
 .svg-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .loader {
-    width: calc(100vw / 6);
-    height: auto;
+  width: calc(100vw / 6);
+  height: auto;
 }
