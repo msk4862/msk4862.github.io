@@ -86,6 +86,10 @@ export const SkillsList = [
 export const Experience = {
   hackerrank:
     "Working with the Interviews team mostly on ReactJS, Redux and NodeJS.",
+  hackerrank_intern: `Collaborated with product managers, UI designers and backend developers to develop new features and improve product.#
+    Overhauled the UI of a flow to increase user interaction by 20%.#
+    Improved Video call UX that cuts time of users misspend in maximizing video while collaborating in an interview.#
+    Developed and published Interviews product in Cisco Webex App Hub.`,
   oneworldlearners:
     "Developed a managed online coaching platform from scratch using Django after analysing and refining given requirements.#" +
     "Developed REST APIs and did unit testing along with designing and creation of UI/UX for the frontend.#" +

@@ -5,10 +5,16 @@ import Triangle from "../components/Triangle";
 import { Experience } from "../utilities/Constants";
 
 const Experiences = () => {
-  const { hackerrank, oneworldlearners, game_dev } = Experience;
+  const {
+    hackerrank,
+    hackerrank_intern,
+    oneworldlearners,
+    game_dev,
+  } = Experience;
 
   const oneworldlearners_points = oneworldlearners.split("#");
   const game_points = game_dev.split("#");
+  const hackerrank_intern_points = hackerrank_intern.split("#");
   const hackerrank_points = hackerrank.split("#");
 
   return (
@@ -26,15 +32,37 @@ const Experiences = () => {
               <div className="card">
                 <div className="card-body">
                   <div className="card-text">
-                    <h5>Software Development Engineer Intern</h5>
+                    <h5>Software Development Engineer</h5>
                     <p className="mb-0">HackerRank</p>
                     <small>
-                      <span>Jun 2021 – Present</span>
+                      <span>Jan 2022 – Present</span>
                       <span className="dot-devider"></span>
-                      <span>Delhi</span>
+                      <span>WFH</span>
                     </small>
                     <ul className="mt-3">
                       {hackerrank_points.map((point, index) => {
+                        return <li key={index}>{point}</li>;
+                      })}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* /card */}
+
+            <div className="col-12 col-sm-12 col-md-8 ml-auto">
+              <div className="card">
+                <div className="card-body">
+                  <div className="card-text">
+                    <h5>Software Development Engineer Intern</h5>
+                    <p className="mb-0">HackerRank</p>
+                    <small>
+                      <span>Jun 2021 – Dec 2021</span>
+                      <span className="dot-devider"></span>
+                      <span>WFH</span>
+                    </small>
+                    <ul className="mt-3">
+                      {hackerrank_intern_points.map((point, index) => {
                         return <li key={index}>{point}</li>;
                       })}
                     </ul>
